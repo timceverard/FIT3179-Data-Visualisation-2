@@ -1,0 +1,126 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 270,
+    "height": 220,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/ALA_SightingsByStateYearMonth.csv",
+        "format": {"type": "csv", "parse": {"month": "number", "count": "number"}
+        }
+    },
+    "transform": [
+        {
+            "filter": "isValid(datum.month)"
+        },
+        {
+            "calculate": "indexof(datum.region, 'Listed') == 0 ? 'Listed (QLD, NSW, ACT)' : 'Unlisted (VIC, SA)'",
+            "as": "side"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "count", "as": "records"
+                }
+            ],
+            "groupby": ["side", "month"]
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "sum", "field": "records", "as": "side_total"
+                }
+            ],
+            "groupby": ["side"]
+        },
+        {
+            "calculate": "datum.records / datum.side_total",
+            "as": "share"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "bar"
+            },
+            "encoding": {
+                "x": {
+                    "field": "month",
+                    "type": "ordinal",
+                    "title": "Month",
+                    "scale": {"domain": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]},
+                    "axis": {"labelAngle": 0, "labelExpr": "['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'][datum.value - 1]"}
+                },
+                "xOffset": {
+                    "field": "side",
+                    "type": "nominal"
+                },
+                "y": {
+                    "field": "share",
+                    "type": "quantitative",
+                    "title": "% of the region's sightings",
+                    "scale": {"domain": [0, 0.3]},
+                    "axis": {"format": ".0%", "grid": true, "tickCount": 6}
+                },
+                "color": {
+                    "field": "side",
+                    "type": "nominal",
+                    "title": null,
+                    "scale": {"domain": ["Listed (QLD, NSW, ACT)", "Unlisted (VIC, SA)"], "range": ["#1F5C3F", "#9CC5A6"]},
+                    "legend": {
+                        "orient": "none",
+                        "direction": "horizontal",
+                        "legendX": 5,
+                        "legendY": 260
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "side",
+                        "type": "nominal",
+                        "title": "Region"
+                    },
+                    {
+                        "field": "month",
+                        "type": "ordinal",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "share",
+                        "type": "quantitative",
+                        "title": "Share of the region's sightings",
+                        "format": ".1%"
+                    },
+                    {
+                        "field": "records",
+                        "type": "quantitative",
+                        "title": "Sightings",
+                        "format": ","
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "axis": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "titleFontSize": 12,
+            "titleFontWeight": "normal",
+            "titleColor": "#4F5E55",
+            "gridColor": "#E3E9E4",
+            "domain": false,
+            "ticks": false
+        },
+        "legend": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "symbolType": "square",
+            "symbolSize": 140,
+            "symbolStrokeWidth": 0
+        }
+    }
+}

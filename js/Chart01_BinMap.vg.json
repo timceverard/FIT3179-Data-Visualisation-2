@@ -1,0 +1,123 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 620,
+    "height": 520,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "projection": {"type": "equalEarth", "rotate": [-134, 0, 0]},
+    "params": [
+        {
+            "name": "period",
+            "value": "All years",
+            "bind": {
+                "input": "select",
+                "name": "Period",
+                "options": ["All years", "Before 2000", "2000–2009", "2010–2019", "2020–2026"],
+                "labels": ["All years", "Before 2000", "2000–09", "2010–19", "2020–26"]
+            }
+        }
+    ],
+    "layer": [
+        {
+            "data": {
+                "url": "js/AusStateBoundaries.topojson",
+                "format": {"type": "topojson", "feature": "states"}
+            },
+            "mark": {"type": "geoshape", "fill": "#EEF2EC", "stroke": "#C7D2C9", "strokeWidth": 0.8}
+        },
+        {
+            "data": {
+                "url": "data/ALA_SightingsGrid.csv",
+                "format": {"type": "csv", "parse": {"lat": "number", "lng": "number", "count": "number"}
+                }
+            },
+            "transform": [
+                {
+                    "filter": "period == 'All years' || datum.period == period"
+                },
+                {
+                    "calculate": "floor(datum.lat / 0.3) * 0.3",
+                    "as": "lat0"
+                },
+                {
+                    "calculate": "floor(datum.lng / 0.3) * 0.3",
+                    "as": "lng0"
+                },
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum", "field": "count", "as": "records"
+                        }
+                    ],
+                    "groupby": ["lat0", "lng0"]
+                },
+                {
+                    "calculate": "datum.lat0 + 0.3",
+                    "as": "lat1"
+                },
+                {
+                    "calculate": "datum.lng0 + 0.3",
+                    "as": "lng1"
+                },
+                {
+                    "calculate": "datum.records < 5 ? '1–4' : datum.records < 25 ? '5–24' : datum.records < 100 ? '25–99' : datum.records < 500 ? '100–499' : datum.records < 2500 ? '500–2,499' : '2,500 or more'",
+                    "as": "records_class"
+                }
+            ],
+            "mark": {
+                "type": "rect"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lng0",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat0",
+                    "type": "quantitative"
+                },
+                "longitude2": {
+                    "field": "lng1"
+                },
+                "latitude2": {
+                    "field": "lat1"
+                },
+                "color": {
+                    "field": "records_class",
+                    "type": "ordinal",
+                    "title": "Records per cell",
+                    "scale": {
+                        "domain": ["1–4", "5–24", "25–99", "100–499", "500–2,499", "2,500 or more"],
+                        "range": ["#D8EAD9", "#A9D1AE", "#74B27F", "#3F8C57", "#1F5C3F", "#0F3B26"]
+                    },
+                    "legend": {
+                        "orient": "bottom-left",
+                        "offset": 0
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "records",
+                        "type": "quantitative",
+                        "title": "Sightings in this square",
+                        "format": ","
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "legend": {
+            "titleFontSize": 12,
+            "titleColor": "#17261E",
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "symbolType": "square",
+            "symbolSize": 140,
+            "symbolStrokeWidth": 0
+        }
+    }
+}

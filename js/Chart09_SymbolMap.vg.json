@@ -1,0 +1,266 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 440,
+    "height": 470,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "projection": {"type": "equalEarth", "rotate": [-152.5, 0, 0]},
+    "layer": [
+        {
+            "data": {
+                "url": "js/SEQ_Councils.topojson",
+                "format": {"type": "topojson", "feature": "councils"}
+            },
+            "mark": {"type": "geoshape", "fill": "#EEF2EC", "stroke": "#FFFFFF", "strokeWidth": 1},
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "properties.name",
+                        "type": "nominal",
+                        "title": "Council"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "values": [{"lat": -26.4, "lng": 155.2}]
+            },
+            "mark": {
+                "type": "point",
+                "opacity": 0
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lng",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [{"lat": -28.55, "lng": 152.2, "label": "New South Wales"}]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "fontStyle": "italic",
+                "color": "#4F5E55"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lng",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "data/QldHospital_RescuesByLGA.csv",
+                "format": {"type": "csv", "parse": {"count": "number", "lat": "number", "lng": "number", "car": "number", "dog": "number"}
+                }
+            },
+            "transform": [
+                {
+                    "lookup": "lga",
+                    "from": {
+                        "data": {
+                            "values": [
+                                {"lga": "Moreton Bay", "label_lat": -27.0, "label_lng": 153.75},
+                                {"lga": "Brisbane", "label_lat": -27.33, "label_lng": 153.75},
+                                {"lga": "Redland", "label_lat": -27.62, "label_lng": 153.75},
+                                {"lga": "Logan", "label_lat": -27.9, "label_lng": 153.75},
+                                {"lga": "Gold Coast", "label_lat": -28.2, "label_lng": 153.75},
+                                {"lga": "Ipswich", "label_lat": -28.1, "label_lng": 152.1}
+                            ]
+                        },
+                        "key": "lga",
+                        "fields": ["label_lat", "label_lng"]
+                    }
+                },
+                {
+                    "calculate": "datum.lga + ' ' + format(datum.count, ',')",
+                    "as": "label"
+                }
+            ],
+            "layer": [
+                {
+                    "transform": [
+                        {
+                            "filter": "isValid(datum.label_lat)"
+                        }
+                    ],
+                    "mark": {
+                        "type": "rule",
+                        "color": "#8A968E",
+                        "strokeWidth": 0.8
+                    },
+                    "encoding": {
+                        "longitude": {
+                            "field": "lng",
+                            "type": "quantitative"
+                        },
+                        "latitude": {
+                            "field": "lat",
+                            "type": "quantitative"
+                        },
+                        "longitude2": {
+                            "field": "label_lng"
+                        },
+                        "latitude2": {
+                            "field": "label_lat"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "circle",
+                        "opacity": 0.65,
+                        "stroke": "#1F5C3F",
+                        "strokeWidth": 1
+                    },
+                    "encoding": {
+                        "longitude": {
+                            "field": "lng",
+                            "type": "quantitative"
+                        },
+                        "latitude": {
+                            "field": "lat",
+                            "type": "quantitative"
+                        },
+                        "size": {
+                            "field": "count",
+                            "type": "quantitative",
+                            "title": "Rescues per council",
+                            "scale": {"domain": [0, 20000], "range": [0, 2400]},
+                            "legend": {
+                                "orient": "top-right",
+                                "offset": 0,
+                                "values": [1000, 5000, 20000],
+                                "format": ",d",
+                                "titleLimit": 220,
+                                "fillColor": "#FFFFFF",
+                                "padding": 8,
+                                "symbolFillColor": "#3F8C57",
+                                "symbolOpacity": 0.65,
+                                "symbolStrokeColor": "#1F5C3F",
+                                "symbolStrokeWidth": 1,
+                                "symbolType": "circle"
+                            }
+                        },
+                        "color": {
+                            "value": "#3F8C57"
+                        },
+                        "order": {
+                            "field": "count",
+                            "sort": "descending"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "lga",
+                                "type": "nominal",
+                                "title": "Council"
+                            },
+                            {
+                                "field": "count",
+                                "type": "quantitative",
+                                "title": "Rescues",
+                                "format": ","
+                            },
+                            {
+                                "field": "car",
+                                "type": "quantitative",
+                                "title": "Car strikes",
+                                "format": ","
+                            },
+                            {
+                                "field": "dog",
+                                "type": "quantitative",
+                                "title": "Dog attacks",
+                                "format": ","
+                            }
+                        ]
+                    }
+                },
+                {
+                    "transform": [
+                        {
+                            "filter": "isValid(datum.label_lat) && datum.label_lng > datum.lng"
+                        }
+                    ],
+                    "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 4,
+                        "fontSize": 11,
+                        "fontWeight": 600,
+                        "color": "#17261E"
+                    },
+                    "encoding": {
+                        "longitude": {
+                            "field": "label_lng",
+                            "type": "quantitative"
+                        },
+                        "latitude": {
+                            "field": "label_lat",
+                            "type": "quantitative"
+                        },
+                        "text": {
+                            "field": "label"
+                        }
+                    }
+                },
+                {
+                    "transform": [
+                        {
+                            "filter": "isValid(datum.label_lat) && datum.label_lng < datum.lng"
+                        }
+                    ],
+                    "mark": {
+                        "type": "text",
+                        "align": "right",
+                        "dx": -4,
+                        "fontSize": 11,
+                        "fontWeight": 600,
+                        "color": "#17261E"
+                    },
+                    "encoding": {
+                        "longitude": {
+                            "field": "label_lng",
+                            "type": "quantitative"
+                        },
+                        "latitude": {
+                            "field": "label_lat",
+                            "type": "quantitative"
+                        },
+                        "text": {
+                            "field": "label"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "legend": {
+            "titleFontSize": 12,
+            "titleColor": "#17261E",
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55"
+        }
+    }
+}

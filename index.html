@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+    <script src="js/main.js" defer></script>
+
+    <title>DV2: Koalas in Australia</title>
+</head>
+
+<body>
+    <!-- Top navigation bar -->
+    <header class="site_header">
+        <div class="container header_inner">
+            <a class="brand" href="#top">Koalas in Australia</a>
+            <nav class="site_nav">
+                <a href="#where">1 · Where they live</a>
+                <a href="#regions">2 · Regions over time</a>
+                <a href="#threats">3 · Threats</a>
+                <a href="#response">4 · Response</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+        <div class="container">
+            <div class="hero_top">
+                <div>
+                    <h1>More koalas than we counted, but not out of the woods</h1>
+                    <p class="lede">
+                        Koalas live in the eucalyptus forests and woodlands of eastern and southeastern Australia. 
+                        In Queensland, New South Wales and the ACT they are listed as endangered; in Victoria 
+                        and South Australia they are not. This data visualisation follows nearly half a million 
+                        sightings and 60,000 rescues to ask where koalas live, how regions compare, what harms them, 
+                        and how we have responded. "Listed" means a species is on Australia's national threatened 
+                        species list, which gives it legal protection; "not listed" means its populations are 
+                        considered secure.
+                    </p>
+                </div>
+                <img class="hero_image" src="koala_hug.png" alt="Illustration of a koala hugging a eucalyptus tree">
+            </div>
+
+            <div class="stat_row">
+                <div class="stat_card">
+                    <p class="stat_number">461,204</p>
+                    <p class="stat_label">koala sightings recorded across Australia</p>
+                </div>
+                <div class="stat_card">
+                    <p class="stat_number">59,804</p>
+                    <p class="stat_label">koalas rescued in Queensland, 1997–2025</p>
+                </div>
+                <div class="stat_card">
+                    <p class="stat_number">37%</p>
+                    <p class="stat_label">of rescues were for disease, the largest single cause</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Where do koalas live? -->
+    <section class="story_section" id="where">
+        <div class="container">
+            <p class="eyebrow">Section 1 · Populations &amp; habitats</p>
+            <h2>Where do koalas live?</h2>
+            <p class="section_intro">
+                Koalas cling to the eucalypt forests of the east and south-east. A sighting is a
+                record of where someone looked as well as where a koala was, so this section also
+                shows who did the records.
+            </p>
+
+            <div class="row row_main_side">
+                <!-- Chart 1 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">1</span>Koala sightings across Australia</h3>
+                    <p class="chart_subtitle">
+                        This map displays the density of sightings across Australia. Each small square covers about
+                        30 km × 30 km, and darker green means more koala sightings were recorded there.
+                    </p>
+                    <div id="bin_map" class="vis"></div>
+                </article>
+
+                <aside class="side_note">
+                    <p class="side_headline">Almost every sighting sits within a few hundred kilometres of the east coast.</p>
+                    <p>
+                        The darkest squares cluster around South East Queensland and the NSW coast.
+                        West of South Australia, there are no wild koalas at all.
+                    </p>
+            </div>
+
+            <div class="row row_halves">
+                <!-- Chart 2 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">2</span>Sightings per 1,000 km² by state</h3>
+                    <p class="chart_subtitle">
+                        This map compares koala sightings in each state, scaled to the state's land area, so big and
+                        small states are comparable. For its size, NSW has the most records: about 377 per 1,000 km²,
+                        against 8 in South Australia.
+                    </p>
+                    <div id="choropleth_map" class="vis"></div>
+                </article>
+
+                <!-- Chart 3 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">3</span>Who recorded them?</h3>
+                    <p class="chart_subtitle">
+                        This chart shows which programs and organisations recorded Australia's koala sightings. The
+                        grid has 100 squares; each one is 1% of all sightings. Nearly two in every three records come 
+                        from one source: the NSW government's BioNet atlas.
+                    </p>
+                    <div id="waffle_chart" class="vis"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: How do the regions compare over time? -->
+    <section class="story_section section_alt" id="regions">
+        <div class="container">
+            <p class="eyebrow">Section 2 · Population trends across regions</p>
+            <h2>How do the regions compare over time?</h2>
+            <p class="section_intro">
+                Sighting records show how koala observations have changed across the states since 2000. Both
+                regions record more koalas now than 20 years ago, with the sharpest rise after 2020, but the listed
+                states (QLD, NSW, ACT) record far more for their size than the unlisted states (VIC, SA). However,
+                it is important to note that these charts show where and when koalas are seen, not how many exist.
+            </p>
+
+            <div class="row">
+                <!-- Chart 4 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">4</span>Sightings by year and state, 2000–2026</h3>
+                    <p class="chart_subtitle">
+                        This heatmap shows how many koala sightings were recorded in each state, every year since 2000.
+                        NSW records jumped about fivefold in 2023–24, again, more searching, not more koalas.
+                    </p>
+                    <div id="heatmap" class="vis"></div>
+                </article>
+            </div>
+
+            <div class="row row_wide_narrow">
+                <!-- Chart 5 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">5</span>Listed (QLD, NSW, ACT) vs Unlisted (VIC, SA)</h3>
+                    <p class="chart_subtitle">
+                        This chart compares sightings per 1,000 km² in the listed and unlisted states. For their 
+                        land area, the listed states now record about 12 times as many sightings as the unlisted 
+                        states.
+                    </p>
+                    <div id="butterfly_chart" class="vis"></div>
+                </article>
+
+                <!-- Chart 6 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">6</span>When koalas are seen</h3>
+                    <p class="chart_subtitle">
+                        This chart shows what share of each group's sightings falls in each month. 45% of sightings 
+                        in the listed states fall in October and November, which must be koala breeding season.
+                    </p>
+                    <div id="grouped_bar_chart" class="vis"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: What puts koalas in hospital? -->
+    <section class="story_section" id="threats">
+        <div class="container">
+            <p class="eyebrow">Section 3 · Factors affecting populations</p>
+            <h2>What puts koalas in hospital?</h2>
+            <p class="section_intro">
+                Queensland's koala hospitals have logged nearly 60,000 rescues since 1997, most of them in South East 
+                Queensland, where koala habitat meets fast-growing suburbs. Those records reveal the main threats: 
+                disease, cars and dogs.
+            </p>
+
+            <div class="row">
+                <!-- Chart 7 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">7</span>Why koalas were rescued, 1997–2024</h3>
+                    <p class="chart_subtitle">
+                        This chart shows why koalas were rescued in Queensland each year from 1997 to 2024, as a share
+                        of that year's rescues. Disease is the largest single cause, and its share grew from 29% in 
+                        1997 to 53% in 2024.
+                    </p>
+                    <div id="stacked_area" class="vis"></div>
+                </article>
+            </div>
+
+            <div class="row row_halves">
+                <!-- Chart 8 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">8</span>Dangerous times of the year</h3>
+                    <p class="chart_subtitle">
+                        This chart compares the quietest and busiest month of the year for each cause of rescue.
+                        Each line joins a cause's quietest month to its busiest month, where a longer line means 
+                        a bigger seasonal swing; the multiplier defines how many times busier the peak month is.
+                    </p>
+                    <div id="connected_dot_plot" class="vis"></div>
+                </article>
+
+                <!-- Chart 9 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">9</span>Rescue hotspots in South East Queensland</h3>
+                    <p class="chart_subtitle">
+                        This map shows how many koala rescues came from each council area in South East Queensland.
+                        Each circle is one council area, placed where most of its rescues happened. Moreton Bay and 
+                        Redland alone account for about 58% of rescues with a known council area.
+                    </p>
+                    <div id="symbol_map" class="vis"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: How has our response changed? -->
+    <section class="story_section section_alt" id="response">
+        <div class="container">
+            <p class="eyebrow">Section 4 · Conservation over time</p>
+            <h2>How has our response changed?</h2>
+            <p class="section_intro">
+                Over more recent years, dedicated koala surveys multiplied and hospitals got
+                better at getting koalas back into the wild where they belong.
+            </p>
+
+            <div class="row">
+                <!-- Chart 10 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">10</span>Koala monitoring programs</h3>
+                    <p class="chart_subtitle">
+                        This chart shows the span of koala records held by the 12 largest recording programs.
+                        Each bar runs from the date of a program's oldest koala record to its newest, labelled with
+                        it's total records, where dark bars hold records from before 1980. We can see that koala programs
+                        started becoming more common as time went on.
+                    </p>
+                    <div id="gantt_chart" class="vis"></div>
+                </article>
+            </div>
+
+            <div class="row row_main_side">
+                <!-- Chart 11 -->
+                <article class="chart_card">
+                    <h3><span class="chart_number">11</span>More rescued koalas are surviving</h3>
+                    <p class="chart_subtitle">
+                        This chart shows the share of rescued koalas released back to the wild, and the share found
+                        dead, each year. Recorded releases rose from 15% of rescues in 1997 to 44% in 2024, while koalas
+                        found dead fell from 21% to 7%.
+                    </p>
+                    <div id="multi_line_chart" class="vis"></div>
+                </article>
+
+                <aside class="side_note side_note_centred">
+                    <p class="side_headline">Care is improving, but rescue only treats the symptoms.</p>
+                    <p>Better care can't keep up if the underlying causes aren't addressed.</p>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: authorship and data sources -->
+    <footer class="site_footer">
+        <div class="container footer_inner">
+            <div class="sources">
+                <p class="eyebrow">About</p>
+                <p>
+                    This data visualisation was created by Tim Everard, for FIT3179 Data Visualisation 2,
+                    Semester 2 2026. Published October 2026.
+                </p>
+                <p>
+                    Generative AI was used as a learning tool, and to provide guidance in the extraction and 
+                    processing of data into organised sheets (.csv), providing general feedback for structure 
+                    and grammar, and in creating the decorative illustration of a koala used in the hero section.
+                </p>
+            </div>
+
+            <div class="sources">
+                <p class="eyebrow">Data source 1</p>
+                <p>
+                    Atlas of Living Australia, Koala (Phascolarctos cinereus) occurrence records, Australia, 1840–2026.
+                    <a href="https://biocache.ala.org.au/occurrences/search?q=lsid:https://biodiversity.org.au/afd/taxa/e9d6fbbd-1505-4073-990a-dc66c930dad6#tab_recordsView">biocache.ala.org.au</a>
+                </p>
+            </div>
+
+            <div class="sources">
+                <p class="eyebrow">Data source 2</p>
+                <p>
+                    Queensland Government Department of the Environment, Tourism, Science and Innovation, Koala Hospital Data (KoalaBASE v5.0), South East Queensland, 1996–2025. CC BY 4.0.
+                    <a href="https://www.data.qld.gov.au/dataset/koala-hospital-data">data.qld.gov.au</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container sources footer_boundaries">
+            <p>
+                State land areas: Australian Bureau of Statistics. State boundaries: Australian Bureau of
+                Statistics, ASGS Volume 1, July 2016 (cat. no. 1270.0.55.001), CC BY 4.0, simplified in Mapshaper.
+                Council boundaries: Australian Bureau of Statistics, ASGS Volume 3, July 2016 (cat. no.
+                1270.0.55.003), CC BY 4.0, clipped and simplified in Mapshaper.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

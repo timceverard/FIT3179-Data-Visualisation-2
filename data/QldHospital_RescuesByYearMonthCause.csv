@@ -1,0 +1,2137 @@
+year,month,cause,cause_group,count,found_dead,released
+1997,1,Car strike,Car strike,32,22,2
+1997,1,Disease / sickness,Disease,61,3,11
+1997,1,Dog attack,Dog attack,16,8,5
+1997,1,Other / not recorded,Not recorded,39,0,0
+1997,2,Car strike,Car strike,20,9,4
+1997,2,Disease / sickness,Disease,42,6,9
+1997,2,Dog attack,Dog attack,5,1,0
+1997,2,Other / not recorded,Not recorded,33,0,1
+1997,2,Other injury,Other causes,1,0,0
+1997,3,Car strike,Car strike,16,5,3
+1997,3,Disease / sickness,Disease,50,3,7
+1997,3,Dog attack,Dog attack,6,2,0
+1997,3,Other / not recorded,Not recorded,27,0,0
+1997,3,Other injury,Other causes,2,0,0
+1997,4,Car strike,Car strike,32,16,2
+1997,4,Disease / sickness,Disease,42,5,7
+1997,4,Dog attack,Dog attack,10,5,1
+1997,4,Other / not recorded,Not recorded,21,2,3
+1997,4,Other injury,Other causes,1,0,0
+1997,5,Car strike,Car strike,25,7,5
+1997,5,Disease / sickness,Disease,39,7,3
+1997,5,Dog attack,Dog attack,16,8,0
+1997,5,Other / not recorded,Not recorded,18,1,0
+1997,6,Car strike,Car strike,42,11,8
+1997,6,Disease / sickness,Disease,44,4,9
+1997,6,Dog attack,Dog attack,11,2,4
+1997,6,Other / not recorded,Not recorded,24,2,4
+1997,6,Other injury,Other causes,6,1,1
+1997,7,Car strike,Car strike,61,30,11
+1997,7,Disease / sickness,Disease,46,4,11
+1997,7,Dog attack,Dog attack,31,8,3
+1997,7,Other / not recorded,Not recorded,46,1,4
+1997,7,Other injury,Other causes,4,0,2
+1997,8,Car strike,Car strike,70,36,6
+1997,8,Disease / sickness,Disease,66,6,18
+1997,8,Dog attack,Dog attack,25,10,3
+1997,8,Other / not recorded,Not recorded,116,10,10
+1997,8,Other injury,Other causes,10,5,4
+1997,9,Car strike,Car strike,91,51,18
+1997,9,Disease / sickness,Disease,42,6,10
+1997,9,Dog attack,Dog attack,34,10,4
+1997,9,Other / not recorded,Not recorded,114,6,12
+1997,9,Other injury,Other causes,5,0,1
+1997,10,Car strike,Car strike,57,24,12
+1997,10,Disease / sickness,Disease,49,2,10
+1997,10,Dog attack,Dog attack,24,11,4
+1997,10,Orphaned,Other causes,1,0,1
+1997,10,Other / not recorded,Not recorded,105,7,17
+1997,10,Other injury,Other causes,7,1,0
+1997,11,Car strike,Car strike,50,23,10
+1997,11,Disease / sickness,Disease,48,3,9
+1997,11,Dog attack,Dog attack,19,4,2
+1997,11,Other / not recorded,Not recorded,50,4,3
+1997,11,Other injury,Other causes,1,0,0
+1997,12,Car strike,Car strike,18,9,2
+1997,12,Disease / sickness,Disease,39,2,7
+1997,12,Dog attack,Dog attack,13,6,1
+1997,12,Other / not recorded,Not recorded,35,1,2
+1997,12,Other injury,Other causes,1,0,1
+1998,1,Car strike,Car strike,28,13,1
+1998,1,Disease / sickness,Disease,53,1,4
+1998,1,Dog attack,Dog attack,9,3,1
+1998,1,Other / not recorded,Not recorded,55,1,2
+1998,1,Other injury,Other causes,3,0,0
+1998,2,Car strike,Car strike,13,8,1
+1998,2,Disease / sickness,Disease,40,4,5
+1998,2,Dog attack,Dog attack,7,2,1
+1998,2,Other / not recorded,Not recorded,45,4,3
+1998,2,Other injury,Other causes,2,0,0
+1998,3,Car strike,Car strike,8,5,2
+1998,3,Disease / sickness,Disease,50,3,7
+1998,3,Dog attack,Dog attack,6,6,0
+1998,3,Other / not recorded,Not recorded,39,6,4
+1998,4,Car strike,Car strike,16,10,1
+1998,4,Disease / sickness,Disease,36,0,3
+1998,4,Dog attack,Dog attack,2,0,0
+1998,4,Other / not recorded,Not recorded,22,3,3
+1998,4,Other injury,Other causes,2,1,0
+1998,5,Car strike,Car strike,22,8,5
+1998,5,Disease / sickness,Disease,42,5,8
+1998,5,Dog attack,Dog attack,5,2,0
+1998,5,Other / not recorded,Not recorded,31,4,1
+1998,5,Other injury,Other causes,1,0,1
+1998,6,Car strike,Car strike,27,10,5
+1998,6,Disease / sickness,Disease,51,5,10
+1998,6,Dog attack,Dog attack,7,2,3
+1998,6,Other / not recorded,Not recorded,45,2,5
+1998,6,Other injury,Other causes,5,0,2
+1998,7,Car strike,Car strike,44,23,8
+1998,7,Disease / sickness,Disease,53,2,14
+1998,7,Dog attack,Dog attack,14,2,3
+1998,7,Other / not recorded,Not recorded,69,4,6
+1998,7,Other injury,Other causes,7,1,3
+1998,8,Car strike,Car strike,54,18,15
+1998,8,Disease / sickness,Disease,59,4,13
+1998,8,Dog attack,Dog attack,12,6,1
+1998,8,Other / not recorded,Not recorded,88,5,5
+1998,8,Other injury,Other causes,3,0,1
+1998,9,Car strike,Car strike,59,32,6
+1998,9,Disease / sickness,Disease,46,2,14
+1998,9,Dog attack,Dog attack,23,7,5
+1998,9,Other / not recorded,Not recorded,98,7,9
+1998,9,Other injury,Other causes,4,1,1
+1998,10,Car strike,Car strike,60,24,9
+1998,10,Disease / sickness,Disease,67,2,20
+1998,10,Dog attack,Dog attack,19,6,6
+1998,10,Other / not recorded,Not recorded,138,5,20
+1998,10,Other injury,Other causes,14,0,9
+1998,11,Car strike,Car strike,52,28,5
+1998,11,Disease / sickness,Disease,58,2,15
+1998,11,Dog attack,Dog attack,20,7,2
+1998,11,Other / not recorded,Not recorded,37,5,7
+1998,11,Other injury,Other causes,4,0,2
+1998,12,Car strike,Car strike,22,6,4
+1998,12,Disease / sickness,Disease,52,2,7
+1998,12,Dog attack,Dog attack,7,2,2
+1998,12,Other / not recorded,Not recorded,41,6,6
+1998,12,Other injury,Other causes,5,1,1
+1999,1,Car strike,Car strike,18,3,3
+1999,1,Disease / sickness,Disease,66,1,9
+1999,1,Dog attack,Dog attack,9,1,1
+1999,1,Other / not recorded,Not recorded,24,0,1
+1999,1,Other injury,Other causes,5,0,1
+1999,2,Car strike,Car strike,19,11,3
+1999,2,Disease / sickness,Disease,56,6,6
+1999,2,Dog attack,Dog attack,8,4,0
+1999,2,Other / not recorded,Not recorded,27,2,2
+1999,2,Other injury,Other causes,4,1,0
+1999,3,Car strike,Car strike,23,11,4
+1999,3,Disease / sickness,Disease,41,3,7
+1999,3,Dog attack,Dog attack,6,1,1
+1999,3,Other / not recorded,Not recorded,21,1,4
+1999,3,Other injury,Other causes,2,0,1
+1999,4,Car strike,Car strike,17,12,1
+1999,4,Disease / sickness,Disease,56,6,4
+1999,4,Dog attack,Dog attack,5,3,0
+1999,4,Other / not recorded,Not recorded,25,2,3
+1999,4,Other injury,Other causes,2,0,0
+1999,5,Car strike,Car strike,23,8,3
+1999,5,Disease / sickness,Disease,60,5,10
+1999,5,Dog attack,Dog attack,7,1,0
+1999,5,Other / not recorded,Not recorded,32,1,4
+1999,5,Other injury,Other causes,3,1,2
+1999,6,Car strike,Car strike,26,15,4
+1999,6,Disease / sickness,Disease,51,6,8
+1999,6,Dog attack,Dog attack,13,2,1
+1999,6,Other / not recorded,Not recorded,23,4,1
+1999,6,Other injury,Other causes,5,1,2
+1999,7,Car strike,Car strike,22,12,2
+1999,7,Disease / sickness,Disease,46,9,10
+1999,7,Dog attack,Dog attack,7,4,0
+1999,7,Other / not recorded,Not recorded,32,3,7
+1999,7,Other injury,Other causes,4,1,1
+1999,8,Car strike,Car strike,55,28,6
+1999,8,Disease / sickness,Disease,56,6,10
+1999,8,Dog attack,Dog attack,24,8,8
+1999,8,Other / not recorded,Not recorded,78,7,10
+1999,8,Other injury,Other causes,4,0,0
+1999,9,Car strike,Car strike,72,40,10
+1999,9,Disease / sickness,Disease,75,7,16
+1999,9,Dog attack,Dog attack,32,15,4
+1999,9,Other / not recorded,Not recorded,96,4,12
+1999,9,Other injury,Other causes,9,1,2
+1999,10,Car strike,Car strike,57,28,4
+1999,10,Disease / sickness,Disease,72,6,25
+1999,10,Dog attack,Dog attack,27,9,7
+1999,10,Other / not recorded,Not recorded,103,6,17
+1999,10,Other injury,Other causes,4,2,1
+1999,11,Car strike,Car strike,42,20,3
+1999,11,Disease / sickness,Disease,67,4,20
+1999,11,Dog attack,Dog attack,15,4,2
+1999,11,Other / not recorded,Not recorded,82,5,10
+1999,11,Other injury,Other causes,8,1,0
+1999,12,Car strike,Car strike,37,12,6
+1999,12,Disease / sickness,Disease,75,2,13
+1999,12,Dog attack,Dog attack,10,2,1
+1999,12,Other / not recorded,Not recorded,53,2,6
+1999,12,Other injury,Other causes,4,0,3
+2000,1,Car strike,Car strike,17,6,3
+2000,1,Disease / sickness,Disease,86,4,10
+2000,1,Dog attack,Dog attack,15,5,2
+2000,1,Other / not recorded,Not recorded,49,5,5
+2000,1,Other injury,Other causes,8,2,1
+2000,2,Car strike,Car strike,22,8,2
+2000,2,Disease / sickness,Disease,70,3,4
+2000,2,Dog attack,Dog attack,8,2,0
+2000,2,Other / not recorded,Not recorded,45,2,3
+2000,2,Other injury,Other causes,6,0,4
+2000,3,Car strike,Car strike,19,10,1
+2000,3,Disease / sickness,Disease,76,2,11
+2000,3,Dog attack,Dog attack,9,4,0
+2000,3,Other / not recorded,Not recorded,35,2,3
+2000,3,Other injury,Other causes,1,0,1
+2000,4,Car strike,Car strike,15,4,2
+2000,4,Disease / sickness,Disease,74,3,10
+2000,4,Dog attack,Dog attack,10,1,2
+2000,4,Other / not recorded,Not recorded,34,2,2
+2000,4,Other injury,Other causes,2,0,1
+2000,5,Car strike,Car strike,22,10,1
+2000,5,Disease / sickness,Disease,78,3,11
+2000,5,Dog attack,Dog attack,11,4,1
+2000,5,Other / not recorded,Not recorded,47,4,7
+2000,5,Other injury,Other causes,8,0,2
+2000,6,Car strike,Car strike,23,5,7
+2000,6,Disease / sickness,Disease,100,12,17
+2000,6,Dog attack,Dog attack,12,5,1
+2000,6,Other / not recorded,Not recorded,62,5,6
+2000,6,Other injury,Other causes,4,0,0
+2000,7,Car strike,Car strike,55,21,9
+2000,7,Disease / sickness,Disease,73,11,8
+2000,7,Dog attack,Dog attack,23,7,3
+2000,7,Other / not recorded,Not recorded,114,7,16
+2000,7,Other injury,Other causes,11,1,5
+2000,8,Car strike,Car strike,73,38,4
+2000,8,Disease / sickness,Disease,83,4,9
+2000,8,Dog attack,Dog attack,28,3,5
+2000,8,Other / not recorded,Not recorded,157,6,26
+2000,8,Other injury,Other causes,12,7,2
+2000,9,Car strike,Car strike,81,47,5
+2000,9,Disease / sickness,Disease,95,3,14
+2000,9,Dog attack,Dog attack,31,10,1
+2000,9,Other / not recorded,Not recorded,219,1,25
+2000,9,Other injury,Other causes,13,3,3
+2000,10,Car strike,Car strike,75,37,9
+2000,10,Disease / sickness,Disease,82,3,12
+2000,10,Dog attack,Dog attack,24,5,3
+2000,10,Other / not recorded,Not recorded,217,6,25
+2000,10,Other injury,Other causes,7,0,1
+2000,11,Car strike,Car strike,39,18,2
+2000,11,Disease / sickness,Disease,75,2,12
+2000,11,Dog attack,Dog attack,11,5,1
+2000,11,Other / not recorded,Not recorded,126,5,13
+2000,11,Other injury,Other causes,7,1,3
+2000,12,Car strike,Car strike,32,12,3
+2000,12,Disease / sickness,Disease,76,4,3
+2000,12,Dog attack,Dog attack,8,0,2
+2000,12,Other / not recorded,Not recorded,65,6,4
+2000,12,Other injury,Other causes,5,0,0
+2001,1,Car strike,Car strike,27,12,2
+2001,1,Disease / sickness,Disease,83,5,7
+2001,1,Dog attack,Dog attack,8,1,3
+2001,1,Other / not recorded,Not recorded,49,0,13
+2001,1,Other injury,Other causes,5,0,0
+2001,2,Car strike,Car strike,12,5,3
+2001,2,Disease / sickness,Disease,63,3,10
+2001,2,Dog attack,Dog attack,6,3,0
+2001,2,Other / not recorded,Not recorded,36,1,7
+2001,2,Other injury,Other causes,1,0,0
+2001,3,Car strike,Car strike,20,12,3
+2001,3,Disease / sickness,Disease,50,5,6
+2001,3,Dog attack,Dog attack,4,1,0
+2001,3,Other / not recorded,Not recorded,34,5,5
+2001,3,Other injury,Other causes,3,1,1
+2001,4,Car strike,Car strike,19,10,3
+2001,4,Disease / sickness,Disease,66,6,6
+2001,4,Dog attack,Dog attack,10,2,4
+2001,4,Other / not recorded,Not recorded,22,4,0
+2001,4,Other injury,Other causes,1,1,0
+2001,5,Car strike,Car strike,22,8,2
+2001,5,Disease / sickness,Disease,50,5,3
+2001,5,Dog attack,Dog attack,6,3,0
+2001,5,Orphaned,Other causes,1,0,0
+2001,5,Other / not recorded,Not recorded,35,2,7
+2001,5,Other injury,Other causes,3,0,1
+2001,6,Car strike,Car strike,32,14,1
+2001,6,Disease / sickness,Disease,59,6,12
+2001,6,Dog attack,Dog attack,16,4,2
+2001,6,Other / not recorded,Not recorded,57,8,2
+2001,6,Other injury,Other causes,4,1,0
+2001,7,Car strike,Car strike,60,34,7
+2001,7,Disease / sickness,Disease,51,4,7
+2001,7,Dog attack,Dog attack,31,15,3
+2001,7,Other / not recorded,Not recorded,58,4,7
+2001,7,Other injury,Other causes,4,1,0
+2001,8,Car strike,Car strike,70,30,7
+2001,8,Disease / sickness,Disease,72,8,16
+2001,8,Dog attack,Dog attack,27,12,5
+2001,8,Other / not recorded,Not recorded,128,19,7
+2001,8,Other injury,Other causes,5,0,0
+2001,9,Car strike,Car strike,93,48,12
+2001,9,Disease / sickness,Disease,72,4,13
+2001,9,Dog attack,Dog attack,42,11,10
+2001,9,Other / not recorded,Not recorded,134,12,13
+2001,9,Other injury,Other causes,7,0,1
+2001,10,Car strike,Car strike,77,39,6
+2001,10,Disease / sickness,Disease,69,2,12
+2001,10,Dog attack,Dog attack,27,7,4
+2001,10,Other / not recorded,Not recorded,119,5,16
+2001,10,Other injury,Other causes,6,0,3
+2001,11,Car strike,Car strike,39,17,4
+2001,11,Disease / sickness,Disease,83,5,13
+2001,11,Dog attack,Dog attack,15,5,0
+2001,11,Other / not recorded,Not recorded,109,6,8
+2001,11,Other injury,Other causes,2,0,0
+2001,12,Car strike,Car strike,32,15,4
+2001,12,Disease / sickness,Disease,46,1,5
+2001,12,Dog attack,Dog attack,13,2,1
+2001,12,Other / not recorded,Not recorded,50,6,2
+2001,12,Other injury,Other causes,3,0,1
+2002,1,Car strike,Car strike,13,3,2
+2002,1,Disease / sickness,Disease,46,2,8
+2002,1,Dog attack,Dog attack,13,4,0
+2002,1,Other / not recorded,Not recorded,39,3,4
+2002,1,Other injury,Other causes,2,0,0
+2002,2,Car strike,Car strike,27,14,2
+2002,2,Disease / sickness,Disease,44,1,8
+2002,2,Dog attack,Dog attack,6,1,2
+2002,2,Other / not recorded,Not recorded,33,5,5
+2002,3,Car strike,Car strike,14,8,1
+2002,3,Disease / sickness,Disease,57,5,3
+2002,3,Dog attack,Dog attack,10,4,2
+2002,3,Other / not recorded,Not recorded,49,2,6
+2002,3,Other injury,Other causes,1,0,0
+2002,4,Car strike,Car strike,17,7,3
+2002,4,Disease / sickness,Disease,46,0,8
+2002,4,Dog attack,Dog attack,6,1,1
+2002,4,Other / not recorded,Not recorded,41,3,4
+2002,4,Other injury,Other causes,4,0,1
+2002,5,Car strike,Car strike,24,8,5
+2002,5,Disease / sickness,Disease,69,4,7
+2002,5,Dog attack,Dog attack,11,0,2
+2002,5,Other / not recorded,Not recorded,61,3,2
+2002,5,Other injury,Other causes,3,0,0
+2002,6,Car strike,Car strike,36,17,4
+2002,6,Disease / sickness,Disease,43,3,8
+2002,6,Dog attack,Dog attack,11,6,3
+2002,6,Other / not recorded,Not recorded,55,9,4
+2002,6,Other injury,Other causes,4,0,1
+2002,7,Car strike,Car strike,69,36,5
+2002,7,Disease / sickness,Disease,64,5,9
+2002,7,Dog attack,Dog attack,32,9,6
+2002,7,Orphaned,Other causes,2,0,1
+2002,7,Other / not recorded,Not recorded,140,7,19
+2002,7,Other injury,Other causes,2,1,0
+2002,8,Car strike,Car strike,88,47,7
+2002,8,Disease / sickness,Disease,78,7,9
+2002,8,Dog attack,Dog attack,27,7,6
+2002,8,Orphaned,Other causes,7,0,4
+2002,8,Other / not recorded,Not recorded,135,5,14
+2002,8,Other injury,Other causes,6,0,2
+2002,9,Car strike,Car strike,90,53,8
+2002,9,Disease / sickness,Disease,49,5,12
+2002,9,Dog attack,Dog attack,15,4,2
+2002,9,Fall,Other causes,1,0,1
+2002,9,Orphaned,Other causes,3,0,1
+2002,9,Other / not recorded,Not recorded,158,5,35
+2002,9,Other injury,Other causes,9,1,3
+2002,10,Car strike,Car strike,89,44,6
+2002,10,Disease / sickness,Disease,66,4,8
+2002,10,Dog attack,Dog attack,21,7,3
+2002,10,Fall,Other causes,2,0,2
+2002,10,Orphaned,Other causes,6,0,3
+2002,10,Other / not recorded,Not recorded,181,9,20
+2002,10,Other injury,Other causes,6,0,0
+2002,11,Car strike,Car strike,52,33,4
+2002,11,Disease / sickness,Disease,79,2,6
+2002,11,Dog attack,Dog attack,17,4,4
+2002,11,Fall,Other causes,1,0,1
+2002,11,Orphaned,Other causes,4,0,2
+2002,11,Other / not recorded,Not recorded,93,6,21
+2002,11,Other injury,Other causes,3,0,1
+2002,12,Car strike,Car strike,23,10,2
+2002,12,Disease / sickness,Disease,65,5,13
+2002,12,Dog attack,Dog attack,11,3,1
+2002,12,Orphaned,Other causes,2,0,2
+2002,12,Other / not recorded,Not recorded,36,2,10
+2003,1,Car strike,Car strike,33,20,5
+2003,1,Disease / sickness,Disease,99,1,12
+2003,1,Dog attack,Dog attack,9,1,1
+2003,1,Orphaned,Other causes,1,0,1
+2003,1,Other / not recorded,Not recorded,51,2,20
+2003,1,Other injury,Other causes,3,0,0
+2003,2,Car strike,Car strike,19,10,1
+2003,2,Disease / sickness,Disease,40,1,3
+2003,2,Dog attack,Dog attack,6,1,0
+2003,2,Orphaned,Other causes,1,0,0
+2003,2,Other / not recorded,Not recorded,18,1,5
+2003,2,Other injury,Other causes,3,0,1
+2003,3,Car strike,Car strike,16,9,1
+2003,3,Disease / sickness,Disease,51,0,5
+2003,3,Dog attack,Dog attack,2,0,0
+2003,3,Other / not recorded,Not recorded,12,2,4
+2003,4,Car strike,Car strike,25,14,2
+2003,4,Disease / sickness,Disease,33,1,7
+2003,4,Dog attack,Dog attack,5,1,0
+2003,4,Orphaned,Other causes,5,0,1
+2003,4,Other / not recorded,Not recorded,20,2,2
+2003,5,Car strike,Car strike,24,13,1
+2003,5,Disease / sickness,Disease,51,2,6
+2003,5,Dog attack,Dog attack,9,3,2
+2003,5,Orphaned,Other causes,2,0,0
+2003,5,Other / not recorded,Not recorded,24,2,4
+2003,5,Other injury,Other causes,2,0,0
+2003,6,Car strike,Car strike,37,23,4
+2003,6,Disease / sickness,Disease,47,8,4
+2003,6,Dog attack,Dog attack,7,2,1
+2003,6,Other / not recorded,Not recorded,54,2,20
+2003,6,Other injury,Other causes,5,1,0
+2003,7,Car strike,Car strike,50,19,2
+2003,7,Disease / sickness,Disease,52,4,6
+2003,7,Dog attack,Dog attack,20,5,1
+2003,7,Fall,Other causes,2,0,0
+2003,7,Orphaned,Other causes,4,0,3
+2003,7,Other / not recorded,Not recorded,89,2,17
+2003,7,Other injury,Other causes,4,1,1
+2003,8,Car strike,Car strike,62,37,2
+2003,8,Disease / sickness,Disease,64,8,11
+2003,8,Dog attack,Dog attack,23,12,0
+2003,8,Orphaned,Other causes,3,0,1
+2003,8,Other / not recorded,Not recorded,122,6,30
+2003,8,Other injury,Other causes,8,1,1
+2003,9,Car strike,Car strike,79,46,9
+2003,9,Disease / sickness,Disease,57,2,6
+2003,9,Dog attack,Dog attack,18,7,3
+2003,9,Fall,Other causes,2,0,1
+2003,9,Orphaned,Other causes,2,0,2
+2003,9,Other / not recorded,Not recorded,164,11,16
+2003,9,Other injury,Other causes,13,0,3
+2003,10,Car strike,Car strike,64,38,3
+2003,10,Disease / sickness,Disease,65,2,10
+2003,10,Dog attack,Dog attack,25,6,2
+2003,10,Fall,Other causes,1,0,1
+2003,10,Orphaned,Other causes,4,0,3
+2003,10,Other / not recorded,Not recorded,136,6,12
+2003,10,Other injury,Other causes,9,0,3
+2003,11,Car strike,Car strike,47,28,4
+2003,11,Disease / sickness,Disease,70,4,13
+2003,11,Dog attack,Dog attack,12,4,0
+2003,11,Fall,Other causes,1,0,0
+2003,11,Orphaned,Other causes,2,0,2
+2003,11,Other / not recorded,Not recorded,108,3,17
+2003,11,Other injury,Other causes,3,0,0
+2003,12,Car strike,Car strike,36,13,3
+2003,12,Disease / sickness,Disease,68,5,7
+2003,12,Dog attack,Dog attack,16,5,2
+2003,12,Orphaned,Other causes,7,0,5
+2003,12,Other / not recorded,Not recorded,66,9,8
+2003,12,Other injury,Other causes,9,1,2
+2004,1,Car strike,Car strike,18,7,0
+2004,1,Disease / sickness,Disease,58,2,11
+2004,1,Dog attack,Dog attack,6,3,1
+2004,1,Fall,Other causes,1,0,1
+2004,1,Orphaned,Other causes,2,0,1
+2004,1,Other / not recorded,Not recorded,46,5,11
+2004,1,Other injury,Other causes,2,0,1
+2004,2,Car strike,Car strike,18,10,1
+2004,2,Disease / sickness,Disease,55,6,8
+2004,2,Dog attack,Dog attack,1,1,0
+2004,2,Orphaned,Other causes,3,0,1
+2004,2,Other / not recorded,Not recorded,39,4,7
+2004,2,Other injury,Other causes,4,0,2
+2004,3,Car strike,Car strike,14,5,2
+2004,3,Disease / sickness,Disease,45,4,4
+2004,3,Dog attack,Dog attack,4,2,0
+2004,3,Orphaned,Other causes,2,0,0
+2004,3,Other / not recorded,Not recorded,41,2,5
+2004,3,Other injury,Other causes,1,0,1
+2004,4,Car strike,Car strike,28,10,3
+2004,4,Disease / sickness,Disease,52,1,5
+2004,4,Dog attack,Dog attack,4,1,0
+2004,4,Fall,Other causes,1,0,0
+2004,4,Other / not recorded,Not recorded,41,2,0
+2004,4,Other injury,Other causes,3,0,0
+2004,5,Car strike,Car strike,36,15,4
+2004,5,Disease / sickness,Disease,71,2,6
+2004,5,Dog attack,Dog attack,16,4,1
+2004,5,Orphaned,Other causes,2,0,0
+2004,5,Other / not recorded,Not recorded,66,4,4
+2004,5,Other injury,Other causes,5,0,0
+2004,6,Car strike,Car strike,36,13,4
+2004,6,Disease / sickness,Disease,76,14,4
+2004,6,Dog attack,Dog attack,11,2,0
+2004,6,Orphaned,Other causes,1,0,1
+2004,6,Other / not recorded,Not recorded,60,6,0
+2004,6,Other injury,Other causes,6,0,2
+2004,7,Car strike,Car strike,62,29,6
+2004,7,Disease / sickness,Disease,78,9,8
+2004,7,Dog attack,Dog attack,18,9,5
+2004,7,Orphaned,Other causes,2,0,1
+2004,7,Other / not recorded,Not recorded,122,4,10
+2004,7,Other injury,Other causes,5,0,1
+2004,8,Car strike,Car strike,90,42,10
+2004,8,Disease / sickness,Disease,80,11,10
+2004,8,Dog attack,Dog attack,26,6,3
+2004,8,Orphaned,Other causes,1,0,1
+2004,8,Other / not recorded,Not recorded,150,9,10
+2004,8,Other injury,Other causes,9,0,2
+2004,9,Car strike,Car strike,123,46,7
+2004,9,Disease / sickness,Disease,82,5,15
+2004,9,Dog attack,Dog attack,23,6,4
+2004,9,Orphaned,Other causes,4,0,4
+2004,9,Other / not recorded,Not recorded,179,5,9
+2004,9,Other injury,Other causes,8,0,0
+2004,10,Car strike,Car strike,82,37,5
+2004,10,Disease / sickness,Disease,71,6,8
+2004,10,Dog attack,Dog attack,26,3,7
+2004,10,Orphaned,Other causes,1,0,1
+2004,10,Other / not recorded,Not recorded,152,5,11
+2004,10,Other injury,Other causes,7,0,0
+2004,11,Car strike,Car strike,54,23,3
+2004,11,Disease / sickness,Disease,75,2,13
+2004,11,Dog attack,Dog attack,10,2,2
+2004,11,Orphaned,Other causes,3,0,3
+2004,11,Other / not recorded,Not recorded,104,4,8
+2004,11,Other injury,Other causes,7,1,2
+2004,12,Car strike,Car strike,18,11,2
+2004,12,Disease / sickness,Disease,48,3,6
+2004,12,Dog attack,Dog attack,5,2,2
+2004,12,Orphaned,Other causes,1,0,0
+2004,12,Other / not recorded,Not recorded,51,3,3
+2004,12,Other injury,Other causes,3,0,2
+2005,1,Car strike,Car strike,20,11,4
+2005,1,Disease / sickness,Disease,88,4,9
+2005,1,Dog attack,Dog attack,3,1,2
+2005,1,Other / not recorded,Not recorded,59,2,8
+2005,1,Other injury,Other causes,6,0,2
+2005,2,Car strike,Car strike,14,8,1
+2005,2,Disease / sickness,Disease,73,4,12
+2005,2,Dog attack,Dog attack,8,3,2
+2005,2,Orphaned,Other causes,1,0,1
+2005,2,Other / not recorded,Not recorded,55,6,1
+2005,2,Other injury,Other causes,2,0,2
+2005,3,Car strike,Car strike,22,10,5
+2005,3,Disease / sickness,Disease,62,3,4
+2005,3,Dog attack,Dog attack,10,0,1
+2005,3,Orphaned,Other causes,2,0,1
+2005,3,Other / not recorded,Not recorded,64,11,0
+2005,3,Other injury,Other causes,3,0,1
+2005,4,Car strike,Car strike,13,5,3
+2005,4,Disease / sickness,Disease,51,4,2
+2005,4,Dog attack,Dog attack,6,3,1
+2005,4,Other / not recorded,Not recorded,34,3,2
+2005,4,Other injury,Other causes,5,0,1
+2005,5,Car strike,Car strike,27,10,2
+2005,5,Disease / sickness,Disease,65,3,3
+2005,5,Dog attack,Dog attack,5,3,1
+2005,5,Orphaned,Other causes,1,0,0
+2005,5,Other / not recorded,Not recorded,38,4,0
+2005,5,Other injury,Other causes,6,0,1
+2005,6,Car strike,Car strike,33,8,5
+2005,6,Disease / sickness,Disease,63,9,3
+2005,6,Dog attack,Dog attack,19,9,1
+2005,6,Orphaned,Other causes,2,0,0
+2005,6,Other / not recorded,Not recorded,44,4,1
+2005,6,Other injury,Other causes,4,0,0
+2005,7,Car strike,Car strike,48,18,10
+2005,7,Disease / sickness,Disease,57,4,7
+2005,7,Dog attack,Dog attack,9,1,2
+2005,7,Fall,Other causes,1,0,0
+2005,7,Orphaned,Other causes,2,0,1
+2005,7,Other / not recorded,Not recorded,84,6,8
+2005,7,Other injury,Other causes,8,1,1
+2005,8,Car strike,Car strike,82,32,15
+2005,8,Disease / sickness,Disease,65,5,10
+2005,8,Dog attack,Dog attack,18,6,5
+2005,8,Orphaned,Other causes,3,0,3
+2005,8,Other / not recorded,Not recorded,165,6,9
+2005,8,Other injury,Other causes,7,0,3
+2005,9,Car strike,Car strike,87,34,14
+2005,9,Disease / sickness,Disease,73,7,16
+2005,9,Dog attack,Dog attack,22,6,14
+2005,9,Orphaned,Other causes,1,0,1
+2005,9,Other / not recorded,Not recorded,157,10,13
+2005,9,Other injury,Other causes,14,1,6
+2005,10,Car strike,Car strike,66,27,16
+2005,10,Disease / sickness,Disease,80,3,15
+2005,10,Dog attack,Dog attack,20,6,7
+2005,10,Orphaned,Other causes,4,0,3
+2005,10,Other / not recorded,Not recorded,184,4,13
+2005,10,Other injury,Other causes,14,0,2
+2005,11,Car strike,Car strike,58,33,4
+2005,11,Disease / sickness,Disease,60,2,6
+2005,11,Dog attack,Dog attack,12,5,1
+2005,11,Orphaned,Other causes,1,0,0
+2005,11,Other / not recorded,Not recorded,107,13,2
+2005,11,Other injury,Other causes,3,0,0
+2005,12,Car strike,Car strike,23,12,3
+2005,12,Disease / sickness,Disease,57,5,8
+2005,12,Dog attack,Dog attack,9,4,3
+2005,12,Orphaned,Other causes,5,0,4
+2005,12,Other / not recorded,Not recorded,57,5,2
+2005,12,Other injury,Other causes,3,0,2
+2006,1,Car strike,Car strike,17,7,3
+2006,1,Disease / sickness,Disease,56,5,5
+2006,1,Dog attack,Dog attack,5,3,0
+2006,1,Orphaned,Other causes,2,0,1
+2006,1,Other / not recorded,Not recorded,45,1,6
+2006,1,Other injury,Other causes,3,0,1
+2006,2,Car strike,Car strike,17,8,0
+2006,2,Disease / sickness,Disease,45,3,7
+2006,2,Dog attack,Dog attack,2,1,0
+2006,2,Other / not recorded,Not recorded,27,5,1
+2006,2,Other injury,Other causes,1,0,0
+2006,3,Car strike,Car strike,12,4,2
+2006,3,Disease / sickness,Disease,56,3,4
+2006,3,Dog attack,Dog attack,4,1,1
+2006,3,Other / not recorded,Not recorded,25,4,3
+2006,4,Car strike,Car strike,30,11,4
+2006,4,Disease / sickness,Disease,58,2,6
+2006,4,Dog attack,Dog attack,11,1,6
+2006,4,Other / not recorded,Not recorded,44,2,6
+2006,4,Other injury,Other causes,4,0,1
+2006,5,Car strike,Car strike,27,8,4
+2006,5,Disease / sickness,Disease,56,3,7
+2006,5,Dog attack,Dog attack,6,3,1
+2006,5,Orphaned,Other causes,1,0,0
+2006,5,Other / not recorded,Not recorded,54,3,9
+2006,5,Other injury,Other causes,2,0,1
+2006,6,Car strike,Car strike,37,17,3
+2006,6,Disease / sickness,Disease,61,4,8
+2006,6,Dog attack,Dog attack,15,4,5
+2006,6,Orphaned,Other causes,6,0,3
+2006,6,Other / not recorded,Not recorded,51,1,20
+2006,6,Other injury,Other causes,1,0,1
+2006,7,Car strike,Car strike,39,17,7
+2006,7,Disease / sickness,Disease,59,3,9
+2006,7,Dog attack,Dog attack,18,2,4
+2006,7,Fall,Other causes,1,0,0
+2006,7,Orphaned,Other causes,3,0,2
+2006,7,Other / not recorded,Not recorded,107,7,26
+2006,7,Other injury,Other causes,14,3,5
+2006,8,Car strike,Car strike,75,37,14
+2006,8,Disease / sickness,Disease,69,8,12
+2006,8,Dog attack,Dog attack,20,4,6
+2006,8,Fall,Other causes,1,0,0
+2006,8,Orphaned,Other causes,4,0,3
+2006,8,Other / not recorded,Not recorded,141,5,18
+2006,8,Other injury,Other causes,10,0,3
+2006,9,Car strike,Car strike,60,30,8
+2006,9,Disease / sickness,Disease,49,2,11
+2006,9,Dog attack,Dog attack,23,7,3
+2006,9,Fall,Other causes,1,0,0
+2006,9,Orphaned,Other causes,5,0,2
+2006,9,Other / not recorded,Not recorded,115,11,12
+2006,9,Other injury,Other causes,11,0,4
+2006,10,Car strike,Car strike,74,44,7
+2006,10,Disease / sickness,Disease,66,2,11
+2006,10,Dog attack,Dog attack,14,6,3
+2006,10,Other / not recorded,Not recorded,123,10,26
+2006,10,Other injury,Other causes,4,0,2
+2006,11,Car strike,Car strike,36,19,5
+2006,11,Disease / sickness,Disease,64,2,8
+2006,11,Dog attack,Dog attack,15,6,2
+2006,11,Orphaned,Other causes,2,0,1
+2006,11,Other / not recorded,Not recorded,53,6,7
+2006,11,Other injury,Other causes,8,0,2
+2006,12,Car strike,Car strike,36,18,7
+2006,12,Disease / sickness,Disease,63,4,9
+2006,12,Dog attack,Dog attack,17,5,5
+2006,12,Orphaned,Other causes,2,0,1
+2006,12,Other / not recorded,Not recorded,23,2,4
+2006,12,Other injury,Other causes,7,0,5
+2007,1,Car strike,Car strike,27,15,3
+2007,1,Disease / sickness,Disease,81,7,8
+2007,1,Dog attack,Dog attack,12,1,2
+2007,1,Orphaned,Other causes,1,0,1
+2007,1,Other / not recorded,Not recorded,52,7,2
+2007,1,Other injury,Other causes,1,0,0
+2007,2,Car strike,Car strike,19,10,3
+2007,2,Disease / sickness,Disease,76,3,8
+2007,2,Dog attack,Dog attack,4,2,0
+2007,2,Orphaned,Other causes,1,0,0
+2007,2,Other / not recorded,Not recorded,48,3,2
+2007,2,Other injury,Other causes,2,0,0
+2007,3,Car strike,Car strike,29,12,4
+2007,3,Disease / sickness,Disease,86,6,10
+2007,3,Dog attack,Dog attack,5,0,2
+2007,3,Orphaned,Other causes,1,0,1
+2007,3,Other / not recorded,Not recorded,37,4,0
+2007,3,Other injury,Other causes,2,0,1
+2007,4,Car strike,Car strike,18,9,2
+2007,4,Disease / sickness,Disease,54,9,5
+2007,4,Dog attack,Dog attack,3,1,0
+2007,4,Orphaned,Other causes,1,0,1
+2007,4,Other / not recorded,Not recorded,32,5,0
+2007,4,Other injury,Other causes,5,0,2
+2007,5,Car strike,Car strike,29,9,5
+2007,5,Disease / sickness,Disease,57,2,7
+2007,5,Dog attack,Dog attack,14,2,4
+2007,5,Orphaned,Other causes,1,0,1
+2007,5,Other / not recorded,Not recorded,46,2,5
+2007,5,Other injury,Other causes,3,0,2
+2007,6,Car strike,Car strike,31,9,7
+2007,6,Disease / sickness,Disease,62,8,10
+2007,6,Dog attack,Dog attack,6,0,0
+2007,6,Orphaned,Other causes,2,0,0
+2007,6,Other / not recorded,Not recorded,51,4,1
+2007,6,Other injury,Other causes,1,0,0
+2007,7,Car strike,Car strike,55,22,12
+2007,7,Disease / sickness,Disease,76,10,6
+2007,7,Dog attack,Dog attack,17,3,4
+2007,7,Orphaned,Other causes,1,0,1
+2007,7,Other / not recorded,Not recorded,90,6,9
+2007,7,Other injury,Other causes,6,1,3
+2007,8,Car strike,Car strike,65,28,8
+2007,8,Disease / sickness,Disease,80,2,14
+2007,8,Dog attack,Dog attack,25,4,6
+2007,8,Orphaned,Other causes,4,0,3
+2007,8,Other / not recorded,Not recorded,137,7,14
+2007,8,Other injury,Other causes,6,0,4
+2007,9,Car strike,Car strike,59,30,9
+2007,9,Disease / sickness,Disease,51,6,5
+2007,9,Dog attack,Dog attack,24,7,11
+2007,9,Orphaned,Other causes,3,0,2
+2007,9,Other / not recorded,Not recorded,41,3,22
+2007,9,Other injury,Other causes,7,0,5
+2007,10,Car strike,Car strike,69,31,13
+2007,10,Disease / sickness,Disease,39,1,8
+2007,10,Dog attack,Dog attack,15,3,5
+2007,10,Fall,Other causes,1,0,0
+2007,10,Orphaned,Other causes,3,0,3
+2007,10,Other / not recorded,Not recorded,34,5,9
+2007,10,Other injury,Other causes,10,0,5
+2007,11,Car strike,Car strike,47,17,4
+2007,11,Disease / sickness,Disease,56,3,9
+2007,11,Dog attack,Dog attack,14,6,3
+2007,11,Orphaned,Other causes,1,0,0
+2007,11,Other / not recorded,Not recorded,100,7,7
+2007,11,Other injury,Other causes,11,0,5
+2007,12,Car strike,Car strike,40,18,5
+2007,12,Disease / sickness,Disease,74,4,10
+2007,12,Dog attack,Dog attack,15,2,5
+2007,12,Other / not recorded,Not recorded,58,4,8
+2007,12,Other injury,Other causes,2,0,0
+2008,1,Car strike,Car strike,23,6,3
+2008,1,Disease / sickness,Disease,56,4,9
+2008,1,Dog attack,Dog attack,5,1,1
+2008,1,Orphaned,Other causes,3,0,2
+2008,1,Other / not recorded,Not recorded,23,1,5
+2008,1,Other injury,Other causes,3,1,0
+2008,2,Car strike,Car strike,25,10,3
+2008,2,Disease / sickness,Disease,64,5,7
+2008,2,Dog attack,Dog attack,1,0,0
+2008,2,Other / not recorded,Not recorded,36,2,6
+2008,2,Other injury,Other causes,2,2,0
+2008,3,Car strike,Car strike,22,9,4
+2008,3,Disease / sickness,Disease,56,0,5
+2008,3,Dog attack,Dog attack,1,0,0
+2008,3,Orphaned,Other causes,2,0,1
+2008,3,Other / not recorded,Not recorded,47,2,9
+2008,3,Other injury,Other causes,3,1,2
+2008,4,Car strike,Car strike,26,8,7
+2008,4,Disease / sickness,Disease,64,3,11
+2008,4,Dog attack,Dog attack,2,0,0
+2008,4,Other / not recorded,Not recorded,24,0,0
+2008,4,Other injury,Other causes,1,0,0
+2008,5,Car strike,Car strike,46,15,6
+2008,5,Disease / sickness,Disease,88,3,16
+2008,5,Dog attack,Dog attack,11,4,2
+2008,5,Orphaned,Other causes,2,0,1
+2008,5,Other / not recorded,Not recorded,52,3,6
+2008,5,Other injury,Other causes,8,2,2
+2008,6,Car strike,Car strike,32,13,5
+2008,6,Disease / sickness,Disease,54,5,7
+2008,6,Dog attack,Dog attack,10,3,3
+2008,6,Fall,Other causes,1,0,0
+2008,6,Orphaned,Other causes,1,0,1
+2008,6,Other / not recorded,Not recorded,49,5,6
+2008,6,Other injury,Other causes,4,0,0
+2008,7,Car strike,Car strike,39,20,12
+2008,7,Disease / sickness,Disease,79,7,13
+2008,7,Dog attack,Dog attack,15,4,2
+2008,7,Orphaned,Other causes,1,0,1
+2008,7,Other / not recorded,Not recorded,55,1,5
+2008,7,Other injury,Other causes,3,0,2
+2008,8,Car strike,Car strike,71,30,14
+2008,8,Disease / sickness,Disease,82,8,15
+2008,8,Dog attack,Dog attack,21,4,7
+2008,8,Orphaned,Other causes,4,0,3
+2008,8,Other / not recorded,Not recorded,139,16,17
+2008,8,Other injury,Other causes,10,0,7
+2008,9,Car strike,Car strike,64,28,11
+2008,9,Disease / sickness,Disease,93,6,15
+2008,9,Dog attack,Dog attack,16,7,6
+2008,9,Orphaned,Other causes,1,0,1
+2008,9,Other / not recorded,Not recorded,155,6,22
+2008,9,Other injury,Other causes,13,0,2
+2008,10,Car strike,Car strike,67,21,15
+2008,10,Disease / sickness,Disease,82,4,15
+2008,10,Dog attack,Dog attack,7,2,2
+2008,10,Orphaned,Other causes,2,0,2
+2008,10,Other / not recorded,Not recorded,172,6,29
+2008,10,Other injury,Other causes,9,0,3
+2008,11,Car strike,Car strike,46,19,8
+2008,11,Disease / sickness,Disease,66,2,18
+2008,11,Dog attack,Dog attack,8,4,1
+2008,11,Fall,Other causes,1,0,0
+2008,11,Orphaned,Other causes,2,0,0
+2008,11,Other / not recorded,Not recorded,64,7,8
+2008,11,Other injury,Other causes,9,1,3
+2008,12,Car strike,Car strike,24,10,3
+2008,12,Disease / sickness,Disease,73,2,18
+2008,12,Dog attack,Dog attack,12,1,4
+2008,12,Other / not recorded,Not recorded,48,2,11
+2008,12,Other injury,Other causes,6,0,2
+2009,1,Car strike,Car strike,19,8,5
+2009,1,Disease / sickness,Disease,84,2,6
+2009,1,Dog attack,Dog attack,10,2,5
+2009,1,Orphaned,Other causes,2,0,2
+2009,1,Other / not recorded,Not recorded,65,4,13
+2009,1,Other injury,Other causes,5,0,0
+2009,2,Car strike,Car strike,17,2,1
+2009,2,Disease / sickness,Disease,73,2,8
+2009,2,Dog attack,Dog attack,10,5,1
+2009,2,Orphaned,Other causes,2,0,1
+2009,2,Other / not recorded,Not recorded,70,6,1
+2009,2,Other injury,Other causes,1,0,0
+2009,3,Car strike,Car strike,25,8,2
+2009,3,Disease / sickness,Disease,72,0,8
+2009,3,Dog attack,Dog attack,12,2,2
+2009,3,Other / not recorded,Not recorded,71,2,5
+2009,3,Other injury,Other causes,4,0,3
+2009,4,Car strike,Car strike,15,4,3
+2009,4,Disease / sickness,Disease,69,6,14
+2009,4,Dog attack,Dog attack,12,1,3
+2009,4,Other / not recorded,Not recorded,69,3,8
+2009,4,Other injury,Other causes,1,0,1
+2009,5,Car strike,Car strike,20,1,1
+2009,5,Disease / sickness,Disease,66,3,5
+2009,5,Dog attack,Dog attack,6,1,1
+2009,5,Orphaned,Other causes,3,0,1
+2009,5,Other / not recorded,Not recorded,75,4,7
+2009,5,Other injury,Other causes,3,0,2
+2009,6,Car strike,Car strike,38,15,6
+2009,6,Disease / sickness,Disease,52,3,6
+2009,6,Dog attack,Dog attack,8,1,1
+2009,6,Orphaned,Other causes,3,0,3
+2009,6,Other / not recorded,Not recorded,76,7,2
+2009,6,Other injury,Other causes,2,0,1
+2009,7,Car strike,Car strike,41,17,7
+2009,7,Disease / sickness,Disease,74,10,10
+2009,7,Dog attack,Dog attack,11,1,5
+2009,7,Fall,Other causes,1,0,0
+2009,7,Orphaned,Other causes,1,0,1
+2009,7,Other / not recorded,Not recorded,143,6,35
+2009,7,Other injury,Other causes,10,0,6
+2009,8,Car strike,Car strike,81,37,18
+2009,8,Disease / sickness,Disease,93,4,7
+2009,8,Dog attack,Dog attack,20,8,4
+2009,8,Orphaned,Other causes,3,0,2
+2009,8,Other / not recorded,Not recorded,195,11,52
+2009,8,Other injury,Other causes,11,0,5
+2009,9,Car strike,Car strike,81,27,19
+2009,9,Disease / sickness,Disease,80,1,11
+2009,9,Dog attack,Dog attack,26,7,2
+2009,9,Orphaned,Other causes,1,0,1
+2009,9,Other / not recorded,Not recorded,290,8,21
+2009,9,Other injury,Other causes,13,0,3
+2009,10,Car strike,Car strike,88,35,16
+2009,10,Disease / sickness,Disease,113,2,17
+2009,10,Dog attack,Dog attack,19,4,5
+2009,10,Orphaned,Other causes,2,0,2
+2009,10,Other / not recorded,Not recorded,276,9,17
+2009,10,Other injury,Other causes,10,0,5
+2009,11,Car strike,Car strike,44,15,12
+2009,11,Disease / sickness,Disease,121,2,12
+2009,11,Dog attack,Dog attack,9,1,5
+2009,11,Orphaned,Other causes,3,0,3
+2009,11,Other / not recorded,Not recorded,233,4,23
+2009,11,Other injury,Other causes,8,0,2
+2009,12,Car strike,Car strike,28,14,10
+2009,12,Disease / sickness,Disease,138,3,22
+2009,12,Dog attack,Dog attack,12,2,3
+2009,12,Other / not recorded,Not recorded,124,5,12
+2009,12,Other injury,Other causes,11,0,5
+2010,1,Car strike,Car strike,33,12,7
+2010,1,Disease / sickness,Disease,116,5,5
+2010,1,Dog attack,Dog attack,13,1,3
+2010,1,Orphaned,Other causes,2,0,2
+2010,1,Other / not recorded,Not recorded,98,4,14
+2010,1,Other injury,Other causes,10,0,2
+2010,2,Car strike,Car strike,16,7,1
+2010,2,Disease / sickness,Disease,84,0,12
+2010,2,Dog attack,Dog attack,5,0,0
+2010,2,Orphaned,Other causes,4,0,3
+2010,2,Other / not recorded,Not recorded,124,0,17
+2010,2,Other injury,Other causes,3,0,0
+2010,3,Car strike,Car strike,14,6,3
+2010,3,Disease / sickness,Disease,87,5,11
+2010,3,Dog attack,Dog attack,1,0,1
+2010,3,Orphaned,Other causes,2,0,2
+2010,3,Other / not recorded,Not recorded,70,9,6
+2010,3,Other injury,Other causes,5,0,3
+2010,4,Car strike,Car strike,24,9,2
+2010,4,Disease / sickness,Disease,77,5,7
+2010,4,Dog attack,Dog attack,4,2,0
+2010,4,Orphaned,Other causes,1,0,0
+2010,4,Other / not recorded,Not recorded,132,5,9
+2010,4,Other injury,Other causes,5,0,3
+2010,5,Car strike,Car strike,28,9,2
+2010,5,Disease / sickness,Disease,68,3,18
+2010,5,Dog attack,Dog attack,5,2,1
+2010,5,Orphaned,Other causes,1,0,0
+2010,5,Other / not recorded,Not recorded,119,1,10
+2010,6,Car strike,Car strike,33,16,6
+2010,6,Disease / sickness,Disease,73,6,13
+2010,6,Dog attack,Dog attack,7,3,0
+2010,6,Orphaned,Other causes,1,0,1
+2010,6,Other / not recorded,Not recorded,101,2,16
+2010,6,Other injury,Other causes,5,0,1
+2010,7,Car strike,Car strike,40,23,9
+2010,7,Disease / sickness,Disease,72,5,7
+2010,7,Dog attack,Dog attack,12,1,3
+2010,7,Orphaned,Other causes,1,0,1
+2010,7,Other / not recorded,Not recorded,174,5,15
+2010,7,Other injury,Other causes,3,0,2
+2010,8,Car strike,Car strike,66,32,8
+2010,8,Disease / sickness,Disease,64,5,11
+2010,8,Dog attack,Dog attack,18,4,2
+2010,8,Orphaned,Other causes,1,0,1
+2010,8,Other / not recorded,Not recorded,200,10,24
+2010,8,Other injury,Other causes,6,0,1
+2010,9,Car strike,Car strike,59,25,13
+2010,9,Disease / sickness,Disease,77,3,18
+2010,9,Dog attack,Dog attack,22,7,2
+2010,9,Orphaned,Other causes,2,0,2
+2010,9,Other / not recorded,Not recorded,261,8,37
+2010,9,Other injury,Other causes,15,0,7
+2010,10,Car strike,Car strike,47,17,9
+2010,10,Disease / sickness,Disease,79,10,10
+2010,10,Dog attack,Dog attack,22,3,5
+2010,10,Other / not recorded,Not recorded,192,5,17
+2010,10,Other injury,Other causes,12,1,5
+2010,11,Car strike,Car strike,42,23,5
+2010,11,Disease / sickness,Disease,103,3,16
+2010,11,Dog attack,Dog attack,10,5,3
+2010,11,Orphaned,Other causes,3,0,2
+2010,11,Other / not recorded,Not recorded,205,2,14
+2010,11,Other injury,Other causes,9,0,7
+2010,12,Car strike,Car strike,23,8,6
+2010,12,Disease / sickness,Disease,53,1,12
+2010,12,Dog attack,Dog attack,5,1,2
+2010,12,Orphaned,Other causes,1,0,1
+2010,12,Other / not recorded,Not recorded,128,8,15
+2010,12,Other injury,Other causes,8,0,6
+2011,1,Car strike,Car strike,22,12,3
+2011,1,Disease / sickness,Disease,58,1,15
+2011,1,Dog attack,Dog attack,7,3,1
+2011,1,Orphaned,Other causes,1,0,1
+2011,1,Other / not recorded,Not recorded,69,9,8
+2011,1,Other injury,Other causes,2,0,1
+2011,2,Car strike,Car strike,16,5,3
+2011,2,Disease / sickness,Disease,60,3,11
+2011,2,Dog attack,Dog attack,3,1,1
+2011,2,Other / not recorded,Not recorded,25,2,7
+2011,2,Other injury,Other causes,2,0,1
+2011,3,Car strike,Car strike,15,7,2
+2011,3,Disease / sickness,Disease,71,4,14
+2011,3,Dog attack,Dog attack,8,2,1
+2011,3,Orphaned,Other causes,1,0,0
+2011,3,Other / not recorded,Not recorded,44,8,11
+2011,3,Other injury,Other causes,2,0,1
+2011,4,Car strike,Car strike,19,10,5
+2011,4,Disease / sickness,Disease,56,0,13
+2011,4,Dog attack,Dog attack,7,0,0
+2011,4,Other / not recorded,Not recorded,19,1,8
+2011,4,Other injury,Other causes,9,0,3
+2011,5,Car strike,Car strike,23,11,5
+2011,5,Disease / sickness,Disease,61,4,14
+2011,5,Dog attack,Dog attack,4,0,0
+2011,5,Other / not recorded,Not recorded,25,1,12
+2011,5,Other injury,Other causes,2,0,0
+2011,6,Car strike,Car strike,29,12,7
+2011,6,Disease / sickness,Disease,57,4,13
+2011,6,Dog attack,Dog attack,10,2,3
+2011,6,Other / not recorded,Not recorded,57,7,18
+2011,6,Other injury,Other causes,2,0,0
+2011,7,Car strike,Car strike,46,17,8
+2011,7,Disease / sickness,Disease,70,4,17
+2011,7,Dog attack,Dog attack,15,3,2
+2011,7,Orphaned,Other causes,2,0,0
+2011,7,Other / not recorded,Not recorded,62,8,25
+2011,7,Other injury,Other causes,8,0,5
+2011,8,Car strike,Car strike,79,42,17
+2011,8,Disease / sickness,Disease,58,4,22
+2011,8,Dog attack,Dog attack,15,5,4
+2011,8,Orphaned,Other causes,1,0,1
+2011,8,Other / not recorded,Not recorded,57,13,23
+2011,8,Other injury,Other causes,12,0,6
+2011,9,Car strike,Car strike,71,29,15
+2011,9,Disease / sickness,Disease,78,4,20
+2011,9,Dog attack,Dog attack,11,3,4
+2011,9,Orphaned,Other causes,4,0,2
+2011,9,Other / not recorded,Not recorded,66,6,28
+2011,9,Other injury,Other causes,9,0,5
+2011,10,Car strike,Car strike,48,27,10
+2011,10,Disease / sickness,Disease,63,3,20
+2011,10,Dog attack,Dog attack,14,3,2
+2011,10,Orphaned,Other causes,3,0,3
+2011,10,Other / not recorded,Not recorded,85,6,32
+2011,10,Other injury,Other causes,12,0,6
+2011,11,Car strike,Car strike,48,18,10
+2011,11,Disease / sickness,Disease,80,2,14
+2011,11,Dog attack,Dog attack,10,1,1
+2011,11,Orphaned,Other causes,3,0,3
+2011,11,Other / not recorded,Not recorded,41,6,10
+2011,11,Other injury,Other causes,3,0,2
+2011,12,Car strike,Car strike,27,7,7
+2011,12,Disease / sickness,Disease,67,1,9
+2011,12,Dog attack,Dog attack,8,0,4
+2011,12,Other / not recorded,Not recorded,100,4,16
+2011,12,Other injury,Other causes,3,0,0
+2012,1,Car strike,Car strike,20,11,2
+2012,1,Disease / sickness,Disease,85,1,17
+2012,1,Dog attack,Dog attack,7,1,1
+2012,1,Other / not recorded,Not recorded,151,3,24
+2012,1,Other injury,Other causes,7,0,4
+2012,2,Car strike,Car strike,21,8,2
+2012,2,Disease / sickness,Disease,73,5,14
+2012,2,Dog attack,Dog attack,4,1,0
+2012,2,Other / not recorded,Not recorded,75,2,10
+2012,2,Other injury,Other causes,1,0,0
+2012,3,Car strike,Car strike,12,5,1
+2012,3,Disease / sickness,Disease,58,5,8
+2012,3,Dog attack,Dog attack,7,2,2
+2012,3,Other / not recorded,Not recorded,97,3,9
+2012,3,Other injury,Other causes,5,0,3
+2012,4,Car strike,Car strike,29,15,4
+2012,4,Disease / sickness,Disease,79,4,13
+2012,4,Dog attack,Dog attack,6,0,2
+2012,4,Orphaned,Other causes,1,0,0
+2012,4,Other / not recorded,Not recorded,64,3,6
+2012,4,Other injury,Other causes,6,0,3
+2012,5,Car strike,Car strike,21,9,3
+2012,5,Disease / sickness,Disease,58,5,11
+2012,5,Dog attack,Dog attack,11,3,3
+2012,5,Orphaned,Other causes,1,0,1
+2012,5,Other / not recorded,Not recorded,77,8,12
+2012,5,Other injury,Other causes,5,0,1
+2012,6,Car strike,Car strike,26,11,5
+2012,6,Disease / sickness,Disease,70,2,9
+2012,6,Dog attack,Dog attack,3,1,0
+2012,6,Orphaned,Other causes,2,0,0
+2012,6,Other / not recorded,Not recorded,94,6,13
+2012,6,Other injury,Other causes,6,0,2
+2012,7,Car strike,Car strike,33,14,2
+2012,7,Disease / sickness,Disease,49,3,13
+2012,7,Dog attack,Dog attack,8,1,2
+2012,7,Orphaned,Other causes,1,0,1
+2012,7,Other / not recorded,Not recorded,152,5,16
+2012,7,Other injury,Other causes,8,0,5
+2012,7,Under threat,Other causes,1,0,1
+2012,8,Car strike,Car strike,59,33,11
+2012,8,Disease / sickness,Disease,90,4,24
+2012,8,Dog attack,Dog attack,18,2,7
+2012,8,Orphaned,Other causes,6,0,5
+2012,8,Other / not recorded,Not recorded,197,7,35
+2012,8,Other injury,Other causes,11,0,6
+2012,9,Car strike,Car strike,74,39,14
+2012,9,Disease / sickness,Disease,81,1,18
+2012,9,Dog attack,Dog attack,20,4,6
+2012,9,Orphaned,Other causes,1,0,1
+2012,9,Other / not recorded,Not recorded,251,9,62
+2012,9,Other injury,Other causes,10,0,4
+2012,10,Car strike,Car strike,64,25,15
+2012,10,Disease / sickness,Disease,118,5,24
+2012,10,Dog attack,Dog attack,20,2,6
+2012,10,Orphaned,Other causes,2,0,2
+2012,10,Other / not recorded,Not recorded,265,8,35
+2012,10,Other injury,Other causes,6,0,2
+2012,11,Car strike,Car strike,41,19,8
+2012,11,Disease / sickness,Disease,82,3,18
+2012,11,Dog attack,Dog attack,5,2,1
+2012,11,Fall,Other causes,1,0,0
+2012,11,Orphaned,Other causes,2,0,2
+2012,11,Other / not recorded,Not recorded,167,2,23
+2012,11,Other injury,Other causes,7,0,3
+2012,12,Car strike,Car strike,31,14,9
+2012,12,Disease / sickness,Disease,99,4,21
+2012,12,Dog attack,Dog attack,7,1,1
+2012,12,Orphaned,Other causes,1,0,1
+2012,12,Other / not recorded,Not recorded,97,3,18
+2012,12,Other injury,Other causes,5,0,1
+2013,1,Car strike,Car strike,22,9,3
+2013,1,Disease / sickness,Disease,121,2,21
+2013,1,Dog attack,Dog attack,7,1,0
+2013,1,Orphaned,Other causes,1,0,1
+2013,1,Other / not recorded,Not recorded,122,1,20
+2013,1,Other injury,Other causes,1,0,0
+2013,2,Car strike,Car strike,9,3,2
+2013,2,Disease / sickness,Disease,58,3,7
+2013,2,Dog attack,Dog attack,5,1,1
+2013,2,Other / not recorded,Not recorded,82,1,7
+2013,2,Other injury,Other causes,2,0,1
+2013,3,Car strike,Car strike,14,5,3
+2013,3,Disease / sickness,Disease,50,4,11
+2013,3,Orphaned,Other causes,1,0,0
+2013,3,Other / not recorded,Not recorded,54,2,13
+2013,3,Other injury,Other causes,1,0,0
+2013,4,Car strike,Car strike,19,12,3
+2013,4,Disease / sickness,Disease,40,2,8
+2013,4,Dog attack,Dog attack,5,0,1
+2013,4,Other / not recorded,Not recorded,81,1,22
+2013,4,Other injury,Other causes,3,0,1
+2013,5,Car strike,Car strike,19,13,1
+2013,5,Disease / sickness,Disease,72,3,11
+2013,5,Dog attack,Dog attack,4,0,0
+2013,5,Other / not recorded,Not recorded,112,3,31
+2013,6,Car strike,Car strike,16,5,3
+2013,6,Disease / sickness,Disease,54,2,9
+2013,6,Dog attack,Dog attack,6,3,0
+2013,6,Orphaned,Other causes,3,0,2
+2013,6,Other / not recorded,Not recorded,90,2,29
+2013,6,Other injury,Other causes,2,0,0
+2013,7,Car strike,Car strike,32,16,4
+2013,7,Disease / sickness,Disease,55,2,1
+2013,7,Dog attack,Dog attack,11,5,0
+2013,7,Orphaned,Other causes,1,0,0
+2013,7,Other / not recorded,Not recorded,60,5,18
+2013,7,Other injury,Other causes,9,0,6
+2013,8,Car strike,Car strike,47,28,8
+2013,8,Disease / sickness,Disease,74,5,29
+2013,8,Dog attack,Dog attack,16,4,5
+2013,8,Orphaned,Other causes,6,0,5
+2013,8,Other / not recorded,Not recorded,57,13,19
+2013,8,Other injury,Other causes,17,0,8
+2013,9,Car strike,Car strike,56,24,14
+2013,9,Disease / sickness,Disease,84,3,21
+2013,9,Dog attack,Dog attack,19,3,8
+2013,9,Fall,Other causes,2,0,2
+2013,9,Orphaned,Other causes,2,0,2
+2013,9,Other / not recorded,Not recorded,53,5,28
+2013,9,Other injury,Other causes,13,0,9
+2013,10,Car strike,Car strike,38,16,7
+2013,10,Disease / sickness,Disease,87,2,18
+2013,10,Dog attack,Dog attack,16,7,2
+2013,10,Orphaned,Other causes,1,0,1
+2013,10,Other / not recorded,Not recorded,95,3,55
+2013,10,Other injury,Other causes,11,0,8
+2013,11,Car strike,Car strike,29,12,7
+2013,11,Disease / sickness,Disease,91,3,25
+2013,11,Dog attack,Dog attack,13,6,5
+2013,11,Other / not recorded,Not recorded,81,5,55
+2013,11,Other injury,Other causes,6,1,3
+2013,12,Car strike,Car strike,26,11,4
+2013,12,Disease / sickness,Disease,92,0,23
+2013,12,Dog attack,Dog attack,16,8,3
+2013,12,Other / not recorded,Not recorded,58,7,32
+2013,12,Other injury,Other causes,1,0,0
+2014,1,Car strike,Car strike,16,10,2
+2014,1,Disease / sickness,Disease,105,3,23
+2014,1,Dog attack,Dog attack,11,7,1
+2014,1,Orphaned,Other causes,3,0,3
+2014,1,Other / not recorded,Not recorded,59,7,37
+2014,1,Other injury,Other causes,2,0,0
+2014,2,Car strike,Car strike,12,4,4
+2014,2,Disease / sickness,Disease,72,4,8
+2014,2,Dog attack,Dog attack,12,10,0
+2014,2,Orphaned,Other causes,1,0,1
+2014,2,Other / not recorded,Not recorded,42,7,27
+2014,2,Other injury,Other causes,2,0,2
+2014,3,Car strike,Car strike,14,3,1
+2014,3,Disease / sickness,Disease,62,5,12
+2014,3,Dog attack,Dog attack,12,6,4
+2014,3,Orphaned,Other causes,1,0,1
+2014,3,Other / not recorded,Not recorded,33,4,17
+2014,3,Other injury,Other causes,4,0,2
+2014,4,Car strike,Car strike,14,4,4
+2014,4,Disease / sickness,Disease,56,0,10
+2014,4,Dog attack,Dog attack,10,7,0
+2014,4,Orphaned,Other causes,3,0,3
+2014,4,Other / not recorded,Not recorded,20,4,11
+2014,4,Other injury,Other causes,3,0,1
+2014,5,Car strike,Car strike,18,9,6
+2014,5,Disease / sickness,Disease,44,4,3
+2014,5,Dog attack,Dog attack,22,12,2
+2014,5,Orphaned,Other causes,1,0,1
+2014,5,Other / not recorded,Not recorded,22,3,10
+2014,5,Other injury,Other causes,2,0,0
+2014,6,Car strike,Car strike,21,7,3
+2014,6,Disease / sickness,Disease,44,3,8
+2014,6,Dog attack,Dog attack,6,3,2
+2014,6,Orphaned,Other causes,1,0,1
+2014,6,Other / not recorded,Not recorded,47,2,27
+2014,6,Other injury,Other causes,3,0,3
+2014,7,Car strike,Car strike,44,19,8
+2014,7,Disease / sickness,Disease,62,7,10
+2014,7,Dog attack,Dog attack,11,6,2
+2014,7,Fall,Other causes,1,1,0
+2014,7,Orphaned,Other causes,3,0,2
+2014,7,Other / not recorded,Not recorded,85,4,32
+2014,7,Other injury,Other causes,5,0,1
+2014,8,Car strike,Car strike,43,20,7
+2014,8,Disease / sickness,Disease,73,9,11
+2014,8,Dog attack,Dog attack,14,4,2
+2014,8,Fall,Other causes,1,0,0
+2014,8,Other / not recorded,Not recorded,41,5,13
+2014,8,Other injury,Other causes,2,0,0
+2014,8,Under threat,Other causes,1,0,1
+2014,9,Car strike,Car strike,38,18,10
+2014,9,Disease / sickness,Disease,64,2,17
+2014,9,Dog attack,Dog attack,15,8,3
+2014,9,Orphaned,Other causes,2,0,2
+2014,9,Other / not recorded,Not recorded,63,8,30
+2014,9,Other injury,Other causes,7,0,4
+2014,10,Car strike,Car strike,50,23,11
+2014,10,Disease / sickness,Disease,70,3,16
+2014,10,Dog attack,Dog attack,32,16,3
+2014,10,Orphaned,Other causes,4,0,3
+2014,10,Other / not recorded,Not recorded,52,9,30
+2014,10,Other injury,Other causes,7,0,3
+2014,11,Car strike,Car strike,44,22,6
+2014,11,Disease / sickness,Disease,95,5,13
+2014,11,Dog attack,Dog attack,26,19,2
+2014,11,Orphaned,Other causes,3,0,2
+2014,11,Other / not recorded,Not recorded,47,4,18
+2014,11,Other injury,Other causes,4,0,3
+2014,11,Under threat,Other causes,1,0,1
+2014,12,Car strike,Car strike,12,6,1
+2014,12,Disease / sickness,Disease,92,2,15
+2014,12,Dog attack,Dog attack,11,9,1
+2014,12,Orphaned,Other causes,2,0,1
+2014,12,Other / not recorded,Not recorded,25,3,14
+2014,12,Other injury,Other causes,1,0,0
+2015,1,Car strike,Car strike,12,2,2
+2015,1,Disease / sickness,Disease,51,0,9
+2015,1,Dog attack,Dog attack,4,3,0
+2015,1,Orphaned,Other causes,1,0,1
+2015,1,Other / not recorded,Not recorded,17,6,7
+2015,1,Other injury,Other causes,6,0,4
+2015,2,Car strike,Car strike,7,3,1
+2015,2,Disease / sickness,Disease,34,3,6
+2015,2,Dog attack,Dog attack,5,2,1
+2015,2,Orphaned,Other causes,4,0,1
+2015,2,Other / not recorded,Not recorded,20,2,4
+2015,2,Other injury,Other causes,2,0,2
+2015,3,Car strike,Car strike,5,1,0
+2015,3,Disease / sickness,Disease,32,2,5
+2015,3,Dog attack,Dog attack,8,2,1
+2015,3,Other / not recorded,Not recorded,12,4,6
+2015,3,Other injury,Other causes,3,0,0
+2015,4,Car strike,Car strike,5,1,1
+2015,4,Disease / sickness,Disease,30,3,4
+2015,4,Dog attack,Dog attack,6,4,0
+2015,4,Orphaned,Other causes,1,0,1
+2015,4,Other / not recorded,Not recorded,10,3,1
+2015,4,Other injury,Other causes,2,0,1
+2015,4,Under threat,Other causes,1,0,0
+2015,5,Car strike,Car strike,13,3,4
+2015,5,Disease / sickness,Disease,37,4,5
+2015,5,Dog attack,Dog attack,7,3,1
+2015,5,Orphaned,Other causes,2,0,0
+2015,5,Other / not recorded,Not recorded,4,2,1
+2015,5,Other injury,Other causes,3,0,1
+2015,6,Car strike,Car strike,24,12,4
+2015,6,Disease / sickness,Disease,34,2,5
+2015,6,Dog attack,Dog attack,6,3,1
+2015,6,Orphaned,Other causes,2,0,1
+2015,6,Other / not recorded,Not recorded,9,0,3
+2015,6,Other injury,Other causes,1,0,0
+2015,6,Under threat,Other causes,2,0,2
+2015,7,Car strike,Car strike,34,15,7
+2015,7,Disease / sickness,Disease,58,8,8
+2015,7,Dog attack,Dog attack,11,4,3
+2015,7,Fall,Other causes,1,0,0
+2015,7,Orphaned,Other causes,3,0,2
+2015,7,Other / not recorded,Not recorded,17,0,8
+2015,7,Other injury,Other causes,5,0,3
+2015,7,Under threat,Other causes,2,0,2
+2015,8,Car strike,Car strike,45,23,5
+2015,8,Disease / sickness,Disease,56,5,7
+2015,8,Dog attack,Dog attack,4,1,0
+2015,8,Fall,Other causes,2,1,0
+2015,8,Orphaned,Other causes,5,0,0
+2015,8,Other / not recorded,Not recorded,21,2,4
+2015,8,Other injury,Other causes,5,0,5
+2015,8,Under threat,Other causes,5,0,5
+2015,9,Car strike,Car strike,54,26,6
+2015,9,Disease / sickness,Disease,46,5,11
+2015,9,Dog attack,Dog attack,18,6,6
+2015,9,Fall,Other causes,3,1,0
+2015,9,Orphaned,Other causes,2,0,2
+2015,9,Other / not recorded,Not recorded,17,3,12
+2015,9,Other injury,Other causes,6,0,3
+2015,9,Under threat,Other causes,14,0,11
+2015,10,Car strike,Car strike,41,22,3
+2015,10,Disease / sickness,Disease,70,6,12
+2015,10,Dog attack,Dog attack,11,1,3
+2015,10,Fall,Other causes,3,0,1
+2015,10,Orphaned,Other causes,5,0,4
+2015,10,Other / not recorded,Not recorded,22,1,15
+2015,10,Other injury,Other causes,4,0,0
+2015,10,Under threat,Other causes,6,0,5
+2015,11,Car strike,Car strike,36,14,3
+2015,11,Disease / sickness,Disease,74,4,17
+2015,11,Dog attack,Dog attack,7,1,1
+2015,11,Fall,Other causes,2,0,1
+2015,11,Orphaned,Other causes,2,0,2
+2015,11,Other / not recorded,Not recorded,18,1,13
+2015,11,Other injury,Other causes,2,0,1
+2015,11,Under threat,Other causes,5,0,5
+2015,12,Car strike,Car strike,29,13,2
+2015,12,Disease / sickness,Disease,56,5,12
+2015,12,Dog attack,Dog attack,4,1,0
+2015,12,Fall,Other causes,3,1,0
+2015,12,Orphaned,Other causes,3,0,2
+2015,12,Other / not recorded,Not recorded,11,6,5
+2015,12,Other injury,Other causes,1,0,0
+2015,12,Under threat,Other causes,4,0,4
+2016,1,Car strike,Car strike,24,12,5
+2016,1,Disease / sickness,Disease,61,0,9
+2016,1,Dog attack,Dog attack,7,0,1
+2016,1,Fall,Other causes,3,1,0
+2016,1,Orphaned,Other causes,2,0,1
+2016,1,Other / not recorded,Not recorded,9,2,7
+2016,2,Car strike,Car strike,13,6,1
+2016,2,Disease / sickness,Disease,52,3,6
+2016,2,Dog attack,Dog attack,6,5,0
+2016,2,Fall,Other causes,1,0,0
+2016,2,Orphaned,Other causes,3,0,2
+2016,2,Other / not recorded,Not recorded,10,1,5
+2016,2,Under threat,Other causes,1,0,1
+2016,3,Car strike,Car strike,12,5,4
+2016,3,Disease / sickness,Disease,38,2,3
+2016,3,Dog attack,Dog attack,3,1,0
+2016,3,Fall,Other causes,2,0,2
+2016,3,Other / not recorded,Not recorded,5,0,3
+2016,3,Under threat,Other causes,3,0,3
+2016,4,Car strike,Car strike,20,9,2
+2016,4,Disease / sickness,Disease,48,0,9
+2016,4,Dog attack,Dog attack,7,2,2
+2016,4,Orphaned,Other causes,1,0,0
+2016,4,Other / not recorded,Not recorded,5,0,3
+2016,4,Under threat,Other causes,1,0,1
+2016,5,Car strike,Car strike,16,5,2
+2016,5,Disease / sickness,Disease,71,6,8
+2016,5,Dog attack,Dog attack,8,2,1
+2016,5,Fall,Other causes,1,1,0
+2016,5,Orphaned,Other causes,2,0,0
+2016,5,Other / not recorded,Not recorded,8,1,2
+2016,5,Other injury,Other causes,1,0,0
+2016,5,Under threat,Other causes,4,0,4
+2016,6,Car strike,Car strike,23,11,2
+2016,6,Disease / sickness,Disease,47,8,3
+2016,6,Dog attack,Dog attack,4,1,0
+2016,6,Fall,Other causes,3,0,0
+2016,6,Orphaned,Other causes,2,0,0
+2016,6,Other / not recorded,Not recorded,15,1,9
+2016,6,Other injury,Other causes,1,0,0
+2016,6,Under threat,Other causes,3,0,3
+2016,7,Car strike,Car strike,30,14,5
+2016,7,Disease / sickness,Disease,48,2,15
+2016,7,Dog attack,Dog attack,9,4,1
+2016,7,Fall,Other causes,1,0,1
+2016,7,Orphaned,Other causes,1,0,0
+2016,7,Other / not recorded,Not recorded,11,0,11
+2016,7,Other injury,Other causes,3,0,1
+2016,7,Under threat,Other causes,10,0,10
+2016,8,Car strike,Car strike,57,30,7
+2016,8,Disease / sickness,Disease,64,4,15
+2016,8,Dog attack,Dog attack,5,0,1
+2016,8,Fall,Other causes,7,1,4
+2016,8,Orphaned,Other causes,3,0,3
+2016,8,Other / not recorded,Not recorded,18,3,13
+2016,8,Other injury,Other causes,1,0,1
+2016,8,Under threat,Other causes,9,0,8
+2016,9,Car strike,Car strike,36,15,7
+2016,9,Disease / sickness,Disease,45,1,7
+2016,9,Dog attack,Dog attack,16,3,4
+2016,9,Fall,Other causes,5,2,0
+2016,9,Other / not recorded,Not recorded,17,2,5
+2016,9,Under threat,Other causes,10,0,10
+2016,10,Car strike,Car strike,40,17,9
+2016,10,Disease / sickness,Disease,62,3,14
+2016,10,Dog attack,Dog attack,14,2,4
+2016,10,Fall,Other causes,3,1,1
+2016,10,Orphaned,Other causes,2,0,1
+2016,10,Other / not recorded,Not recorded,10,1,1
+2016,10,Other injury,Other causes,2,0,1
+2016,10,Under threat,Other causes,11,0,10
+2016,11,Car strike,Car strike,34,19,3
+2016,11,Disease / sickness,Disease,70,3,9
+2016,11,Dog attack,Dog attack,10,1,1
+2016,11,Orphaned,Other causes,3,0,2
+2016,11,Other / not recorded,Not recorded,8,0,6
+2016,11,Under threat,Other causes,9,0,8
+2016,12,Car strike,Car strike,17,7,5
+2016,12,Disease / sickness,Disease,63,1,8
+2016,12,Dog attack,Dog attack,6,0,1
+2016,12,Fall,Other causes,2,0,0
+2016,12,Orphaned,Other causes,2,0,1
+2016,12,Other / not recorded,Not recorded,19,6,9
+2016,12,Other injury,Other causes,1,0,0
+2016,12,Under threat,Other causes,2,0,2
+2017,1,Car strike,Car strike,13,7,2
+2017,1,Disease / sickness,Disease,56,7,15
+2017,1,Dog attack,Dog attack,4,2,0
+2017,1,Fall,Other causes,1,1,0
+2017,1,Other / not recorded,Not recorded,11,1,9
+2017,1,Other injury,Other causes,1,0,1
+2017,1,Under threat,Other causes,2,0,2
+2017,2,Car strike,Car strike,8,1,2
+2017,2,Disease / sickness,Disease,42,1,6
+2017,2,Dog attack,Dog attack,2,2,0
+2017,2,Orphaned,Other causes,2,0,2
+2017,2,Other / not recorded,Not recorded,2,0,1
+2017,2,Other injury,Other causes,1,0,0
+2017,2,Under threat,Other causes,4,0,4
+2017,3,Car strike,Car strike,11,4,1
+2017,3,Disease / sickness,Disease,40,1,9
+2017,3,Dog attack,Dog attack,2,1,0
+2017,3,Fall,Other causes,2,0,1
+2017,3,Other / not recorded,Not recorded,4,0,4
+2017,3,Other injury,Other causes,2,0,1
+2017,3,Under threat,Other causes,1,0,1
+2017,4,Car strike,Car strike,8,1,0
+2017,4,Disease / sickness,Disease,41,2,10
+2017,4,Dog attack,Dog attack,5,1,2
+2017,4,Fall,Other causes,1,1,0
+2017,4,Other / not recorded,Not recorded,11,1,9
+2017,4,Other injury,Other causes,2,0,2
+2017,5,Car strike,Car strike,12,6,2
+2017,5,Disease / sickness,Disease,45,1,9
+2017,5,Dog attack,Dog attack,5,0,2
+2017,5,Orphaned,Other causes,4,0,1
+2017,5,Other / not recorded,Not recorded,5,1,3
+2017,5,Other injury,Other causes,2,0,2
+2017,5,Under threat,Other causes,1,0,1
+2017,6,Car strike,Car strike,29,18,2
+2017,6,Disease / sickness,Disease,35,1,3
+2017,6,Dog attack,Dog attack,1,0,1
+2017,6,Orphaned,Other causes,2,0,2
+2017,6,Other / not recorded,Not recorded,6,0,4
+2017,6,Other injury,Other causes,1,0,1
+2017,6,Under threat,Other causes,2,0,2
+2017,7,Car strike,Car strike,40,16,10
+2017,7,Disease / sickness,Disease,57,3,16
+2017,7,Dog attack,Dog attack,7,1,3
+2017,7,Fall,Other causes,5,2,1
+2017,7,Orphaned,Other causes,4,0,2
+2017,7,Other / not recorded,Not recorded,11,2,5
+2017,7,Other injury,Other causes,5,0,2
+2017,7,Under threat,Other causes,11,0,11
+2017,8,Car strike,Car strike,50,22,9
+2017,8,Disease / sickness,Disease,71,4,13
+2017,8,Dog attack,Dog attack,18,0,4
+2017,8,Fall,Other causes,1,0,1
+2017,8,Orphaned,Other causes,1,0,0
+2017,8,Other / not recorded,Not recorded,10,1,9
+2017,8,Other injury,Other causes,5,0,2
+2017,8,Under threat,Other causes,21,0,19
+2017,9,Car strike,Car strike,51,23,13
+2017,9,Disease / sickness,Disease,82,9,20
+2017,9,Dog attack,Dog attack,19,1,3
+2017,9,Fall,Other causes,4,1,1
+2017,9,Orphaned,Other causes,2,0,2
+2017,9,Other / not recorded,Not recorded,12,0,11
+2017,9,Other injury,Other causes,5,0,2
+2017,9,Under threat,Other causes,23,0,21
+2017,10,Car strike,Car strike,31,13,4
+2017,10,Disease / sickness,Disease,59,2,10
+2017,10,Dog attack,Dog attack,5,1,0
+2017,10,Fall,Other causes,1,0,1
+2017,10,Orphaned,Other causes,7,0,6
+2017,10,Other / not recorded,Not recorded,6,0,5
+2017,10,Other injury,Other causes,3,0,3
+2017,10,Under threat,Other causes,4,0,4
+2017,11,Car strike,Car strike,27,12,4
+2017,11,Disease / sickness,Disease,45,1,10
+2017,11,Dog attack,Dog attack,5,1,1
+2017,11,Fall,Other causes,1,0,0
+2017,11,Orphaned,Other causes,2,0,1
+2017,11,Other / not recorded,Not recorded,7,1,5
+2017,11,Other injury,Other causes,4,0,2
+2017,11,Under threat,Other causes,3,0,2
+2017,12,Car strike,Car strike,16,9,1
+2017,12,Disease / sickness,Disease,41,1,8
+2017,12,Dog attack,Dog attack,1,0,0
+2017,12,Fall,Other causes,2,0,0
+2017,12,Orphaned,Other causes,5,0,4
+2017,12,Other / not recorded,Not recorded,4,0,2
+2017,12,Under threat,Other causes,3,0,3
+2018,1,Car strike,Car strike,14,6,0
+2018,1,Disease / sickness,Disease,45,1,7
+2018,1,Dog attack,Dog attack,3,0,1
+2018,1,Fall,Other causes,3,2,0
+2018,1,Orphaned,Other causes,1,0,1
+2018,1,Other / not recorded,Not recorded,2,0,2
+2018,1,Other injury,Other causes,1,0,1
+2018,1,Under threat,Other causes,5,0,4
+2018,2,Car strike,Car strike,8,2,3
+2018,2,Disease / sickness,Disease,43,2,11
+2018,2,Dog attack,Dog attack,2,1,0
+2018,2,Orphaned,Other causes,1,0,0
+2018,2,Other / not recorded,Not recorded,3,2,0
+2018,2,Under threat,Other causes,4,0,4
+2018,3,Car strike,Car strike,3,3,0
+2018,3,Disease / sickness,Disease,33,1,6
+2018,3,Dog attack,Dog attack,1,1,0
+2018,3,Other / not recorded,Not recorded,1,0,1
+2018,4,Car strike,Car strike,6,2,2
+2018,4,Disease / sickness,Disease,42,3,4
+2018,4,Dog attack,Dog attack,3,0,1
+2018,4,Fall,Other causes,2,1,0
+2018,4,Other / not recorded,Not recorded,1,0,1
+2018,4,Under threat,Other causes,1,0,1
+2018,5,Car strike,Car strike,14,3,1
+2018,5,Disease / sickness,Disease,55,0,14
+2018,5,Dog attack,Dog attack,3,1,1
+2018,5,Fall,Other causes,1,0,1
+2018,5,Orphaned,Other causes,1,0,0
+2018,5,Other / not recorded,Not recorded,2,1,1
+2018,5,Under threat,Other causes,3,0,2
+2018,6,Car strike,Car strike,21,9,3
+2018,6,Disease / sickness,Disease,41,3,7
+2018,6,Dog attack,Dog attack,8,3,2
+2018,6,Fall,Other causes,1,0,1
+2018,6,Other / not recorded,Not recorded,18,1,17
+2018,6,Other injury,Other causes,2,0,1
+2018,6,Under threat,Other causes,5,0,5
+2018,7,Car strike,Car strike,32,15,4
+2018,7,Disease / sickness,Disease,50,7,8
+2018,7,Dog attack,Dog attack,5,0,0
+2018,7,Fall,Other causes,3,2,1
+2018,7,Orphaned,Other causes,1,0,1
+2018,7,Other / not recorded,Not recorded,10,2,8
+2018,7,Other injury,Other causes,1,0,1
+2018,7,Under threat,Other causes,18,0,16
+2018,8,Car strike,Car strike,33,25,1
+2018,8,Disease / sickness,Disease,65,5,20
+2018,8,Dog attack,Dog attack,12,3,1
+2018,8,Fall,Other causes,2,1,0
+2018,8,Orphaned,Other causes,3,0,2
+2018,8,Other / not recorded,Not recorded,13,3,9
+2018,8,Other injury,Other causes,7,0,3
+2018,8,Under threat,Other causes,48,0,45
+2018,9,Car strike,Car strike,59,24,14
+2018,9,Disease / sickness,Disease,57,3,14
+2018,9,Dog attack,Dog attack,16,5,5
+2018,9,Fall,Other causes,3,0,1
+2018,9,Orphaned,Other causes,5,0,1
+2018,9,Other / not recorded,Not recorded,11,2,7
+2018,9,Other injury,Other causes,7,0,4
+2018,9,Under threat,Other causes,37,0,35
+2018,10,Car strike,Car strike,35,13,3
+2018,10,Disease / sickness,Disease,62,3,14
+2018,10,Dog attack,Dog attack,7,2,0
+2018,10,Fall,Other causes,5,1,2
+2018,10,Orphaned,Other causes,4,0,2
+2018,10,Other / not recorded,Not recorded,9,1,7
+2018,10,Other injury,Other causes,5,0,2
+2018,10,Under threat,Other causes,19,0,18
+2018,11,Car strike,Car strike,20,6,3
+2018,11,Disease / sickness,Disease,62,3,12
+2018,11,Dog attack,Dog attack,10,0,2
+2018,11,Fall,Other causes,2,0,1
+2018,11,Orphaned,Other causes,2,0,0
+2018,11,Other / not recorded,Not recorded,9,1,7
+2018,11,Other injury,Other causes,5,0,2
+2018,11,Under threat,Other causes,11,0,9
+2018,12,Car strike,Car strike,18,7,1
+2018,12,Disease / sickness,Disease,57,2,13
+2018,12,Dog attack,Dog attack,7,0,1
+2018,12,Fall,Other causes,2,1,0
+2018,12,Orphaned,Other causes,2,0,0
+2018,12,Other / not recorded,Not recorded,4,1,3
+2018,12,Under threat,Other causes,3,0,3
+2019,1,Car strike,Car strike,21,11,2
+2019,1,Disease / sickness,Disease,79,1,18
+2019,1,Dog attack,Dog attack,6,2,0
+2019,1,Orphaned,Other causes,4,0,1
+2019,1,Other / not recorded,Not recorded,5,3,1
+2019,1,Other injury,Other causes,2,0,1
+2019,1,Under threat,Other causes,2,0,2
+2019,2,Car strike,Car strike,15,4,2
+2019,2,Disease / sickness,Disease,76,3,5
+2019,2,Dog attack,Dog attack,6,2,1
+2019,2,Fall,Other causes,1,1,0
+2019,2,Orphaned,Other causes,5,0,2
+2019,2,Other / not recorded,Not recorded,3,1,2
+2019,2,Other injury,Other causes,2,0,2
+2019,2,Under threat,Other causes,4,0,4
+2019,3,Car strike,Car strike,16,3,2
+2019,3,Disease / sickness,Disease,75,2,9
+2019,3,Dog attack,Dog attack,2,0,0
+2019,3,Fall,Other causes,2,0,0
+2019,3,Orphaned,Other causes,1,0,0
+2019,3,Other / not recorded,Not recorded,4,0,2
+2019,3,Under threat,Other causes,3,0,2
+2019,4,Car strike,Car strike,15,5,2
+2019,4,Disease / sickness,Disease,38,1,3
+2019,4,Dog attack,Dog attack,2,1,0
+2019,4,Orphaned,Other causes,1,0,1
+2019,4,Other / not recorded,Not recorded,12,1,8
+2019,4,Other injury,Other causes,1,0,0
+2019,4,Under threat,Other causes,7,0,5
+2019,5,Car strike,Car strike,17,5,1
+2019,5,Disease / sickness,Disease,51,2,9
+2019,5,Dog attack,Dog attack,1,1,0
+2019,5,Orphaned,Other causes,1,0,0
+2019,5,Other / not recorded,Not recorded,9,1,7
+2019,5,Other injury,Other causes,2,0,0
+2019,5,Under threat,Other causes,4,0,4
+2019,6,Car strike,Car strike,20,9,3
+2019,6,Disease / sickness,Disease,41,2,5
+2019,6,Dog attack,Dog attack,2,0,0
+2019,6,Fall,Other causes,4,2,1
+2019,6,Orphaned,Other causes,1,0,0
+2019,6,Other / not recorded,Not recorded,6,0,5
+2019,6,Under threat,Other causes,10,0,10
+2019,7,Car strike,Car strike,29,16,2
+2019,7,Disease / sickness,Disease,66,4,12
+2019,7,Dog attack,Dog attack,7,1,2
+2019,7,Orphaned,Other causes,1,0,0
+2019,7,Other / not recorded,Not recorded,8,3,3
+2019,7,Other injury,Other causes,4,0,2
+2019,7,Under threat,Other causes,20,0,19
+2019,8,Car strike,Car strike,57,30,8
+2019,8,Disease / sickness,Disease,92,7,16
+2019,8,Dog attack,Dog attack,16,4,4
+2019,8,Fall,Other causes,1,1,0
+2019,8,Orphaned,Other causes,1,0,1
+2019,8,Other / not recorded,Not recorded,10,1,7
+2019,8,Other injury,Other causes,2,0,2
+2019,8,Under threat,Other causes,30,0,30
+2019,9,Car strike,Car strike,57,19,12
+2019,9,Disease / sickness,Disease,135,3,31
+2019,9,Dog attack,Dog attack,18,3,4
+2019,9,Fall,Other causes,2,0,0
+2019,9,Orphaned,Other causes,5,0,1
+2019,9,Other / not recorded,Not recorded,19,4,15
+2019,9,Other injury,Other causes,7,0,2
+2019,9,Under threat,Other causes,45,0,42
+2019,10,Car strike,Car strike,41,8,9
+2019,10,Disease / sickness,Disease,96,5,22
+2019,10,Dog attack,Dog attack,4,1,0
+2019,10,Fall,Other causes,4,1,1
+2019,10,Orphaned,Other causes,2,0,1
+2019,10,Other / not recorded,Not recorded,17,2,14
+2019,10,Other injury,Other causes,2,0,2
+2019,10,Under threat,Other causes,34,0,28
+2019,11,Car strike,Car strike,33,9,10
+2019,11,Disease / sickness,Disease,134,2,23
+2019,11,Dog attack,Dog attack,11,3,3
+2019,11,Fall,Other causes,4,1,0
+2019,11,Orphaned,Other causes,5,0,4
+2019,11,Other / not recorded,Not recorded,13,2,9
+2019,11,Other injury,Other causes,9,0,6
+2019,11,Under threat,Other causes,13,0,11
+2019,12,Car strike,Car strike,16,5,4
+2019,12,Disease / sickness,Disease,110,3,24
+2019,12,Dog attack,Dog attack,8,2,0
+2019,12,Orphaned,Other causes,8,0,5
+2019,12,Other / not recorded,Not recorded,12,3,9
+2019,12,Other injury,Other causes,3,0,2
+2019,12,Under threat,Other causes,24,0,22
+2020,1,Car strike,Car strike,21,7,4
+2020,1,Disease / sickness,Disease,87,0,16
+2020,1,Dog attack,Dog attack,9,3,0
+2020,1,Fall,Other causes,1,0,0
+2020,1,Orphaned,Other causes,1,0,0
+2020,1,Other / not recorded,Not recorded,2,0,2
+2020,1,Other injury,Other causes,1,0,1
+2020,1,Under threat,Other causes,6,0,5
+2020,2,Car strike,Car strike,9,1,1
+2020,2,Disease / sickness,Disease,36,3,7
+2020,2,Dog attack,Dog attack,3,1,1
+2020,2,Fall,Other causes,2,1,1
+2020,2,Orphaned,Other causes,2,0,0
+2020,2,Under threat,Other causes,9,0,7
+2020,3,Car strike,Car strike,11,5,2
+2020,3,Disease / sickness,Disease,53,2,14
+2020,3,Dog attack,Dog attack,2,0,0
+2020,3,Other / not recorded,Not recorded,1,0,1
+2020,3,Under threat,Other causes,4,0,4
+2020,4,Car strike,Car strike,7,1,2
+2020,4,Disease / sickness,Disease,44,0,13
+2020,4,Dog attack,Dog attack,3,0,2
+2020,4,Fall,Other causes,1,0,0
+2020,4,Orphaned,Other causes,2,0,0
+2020,4,Other / not recorded,Not recorded,3,1,2
+2020,4,Under threat,Other causes,8,0,7
+2020,5,Car strike,Car strike,18,4,2
+2020,5,Disease / sickness,Disease,66,0,14
+2020,5,Dog attack,Dog attack,4,0,2
+2020,5,Orphaned,Other causes,2,0,0
+2020,5,Other / not recorded,Not recorded,7,3,2
+2020,5,Other injury,Other causes,1,0,0
+2020,5,Under threat,Other causes,9,0,9
+2020,6,Car strike,Car strike,22,9,3
+2020,6,Disease / sickness,Disease,43,2,10
+2020,6,Dog attack,Dog attack,8,1,5
+2020,6,Fall,Other causes,2,1,0
+2020,6,Orphaned,Other causes,2,0,0
+2020,6,Other / not recorded,Not recorded,3,0,3
+2020,6,Other injury,Other causes,3,0,1
+2020,6,Under threat,Other causes,13,0,12
+2020,7,Car strike,Car strike,42,9,10
+2020,7,Disease / sickness,Disease,62,3,15
+2020,7,Dog attack,Dog attack,5,1,2
+2020,7,Orphaned,Other causes,5,0,2
+2020,7,Other / not recorded,Not recorded,12,4,7
+2020,7,Other injury,Other causes,3,0,3
+2020,7,Under threat,Other causes,31,0,30
+2020,8,Car strike,Car strike,49,19,8
+2020,8,Disease / sickness,Disease,73,1,21
+2020,8,Dog attack,Dog attack,14,4,4
+2020,8,Fall,Other causes,3,1,1
+2020,8,Orphaned,Other causes,3,0,0
+2020,8,Other / not recorded,Not recorded,14,2,10
+2020,8,Other injury,Other causes,2,0,1
+2020,8,Under threat,Other causes,28,0,25
+2020,9,Car strike,Car strike,39,17,4
+2020,9,Disease / sickness,Disease,89,0,37
+2020,9,Dog attack,Dog attack,16,2,4
+2020,9,Fall,Other causes,4,0,4
+2020,9,Orphaned,Other causes,5,0,1
+2020,9,Other / not recorded,Not recorded,22,2,20
+2020,9,Other injury,Other causes,14,0,9
+2020,9,Under threat,Other causes,43,0,38
+2020,10,Car strike,Car strike,50,22,6
+2020,10,Disease / sickness,Disease,96,2,28
+2020,10,Dog attack,Dog attack,9,0,3
+2020,10,Fall,Other causes,3,0,1
+2020,10,Orphaned,Other causes,5,0,4
+2020,10,Other / not recorded,Not recorded,12,1,8
+2020,10,Other injury,Other causes,8,0,7
+2020,10,Under threat,Other causes,32,0,30
+2020,11,Car strike,Car strike,32,10,10
+2020,11,Disease / sickness,Disease,108,3,24
+2020,11,Dog attack,Dog attack,11,2,1
+2020,11,Orphaned,Other causes,7,0,4
+2020,11,Other / not recorded,Not recorded,9,1,6
+2020,11,Other injury,Other causes,4,0,3
+2020,11,Under threat,Other causes,9,0,8
+2020,12,Car strike,Car strike,8,1,3
+2020,12,Disease / sickness,Disease,80,4,17
+2020,12,Dog attack,Dog attack,5,1,1
+2020,12,Fall,Other causes,2,0,1
+2020,12,Orphaned,Other causes,7,0,5
+2020,12,Other / not recorded,Not recorded,8,3,4
+2020,12,Other injury,Other causes,2,0,2
+2020,12,Under threat,Other causes,8,0,8
+2021,1,Car strike,Car strike,20,5,4
+2021,1,Disease / sickness,Disease,60,0,13
+2021,1,Dog attack,Dog attack,6,1,1
+2021,1,Fall,Other causes,1,0,1
+2021,1,Orphaned,Other causes,3,0,2
+2021,1,Other / not recorded,Not recorded,3,0,3
+2021,1,Other injury,Other causes,1,0,1
+2021,1,Under threat,Other causes,8,0,8
+2021,2,Car strike,Car strike,9,1,3
+2021,2,Disease / sickness,Disease,53,1,6
+2021,2,Dog attack,Dog attack,2,0,1
+2021,2,Orphaned,Other causes,2,0,2
+2021,2,Other / not recorded,Not recorded,4,1,2
+2021,2,Other injury,Other causes,1,0,0
+2021,2,Under threat,Other causes,8,0,8
+2021,3,Car strike,Car strike,10,4,3
+2021,3,Disease / sickness,Disease,52,1,12
+2021,3,Dog attack,Dog attack,3,1,0
+2021,3,Orphaned,Other causes,1,0,1
+2021,3,Other / not recorded,Not recorded,2,0,2
+2021,3,Other injury,Other causes,1,0,1
+2021,3,Under threat,Other causes,1,0,1
+2021,4,Car strike,Car strike,5,2,1
+2021,4,Disease / sickness,Disease,29,0,11
+2021,4,Fall,Other causes,1,1,0
+2021,4,Orphaned,Other causes,4,0,2
+2021,4,Other / not recorded,Not recorded,3,3,0
+2021,4,Other injury,Other causes,3,0,2
+2021,4,Under threat,Other causes,3,0,3
+2021,5,Car strike,Car strike,14,5,3
+2021,5,Disease / sickness,Disease,39,1,14
+2021,5,Dog attack,Dog attack,8,1,3
+2021,5,Fall,Other causes,2,1,1
+2021,5,Orphaned,Other causes,3,0,1
+2021,5,Other injury,Other causes,1,0,1
+2021,5,Under threat,Other causes,7,0,7
+2021,6,Car strike,Car strike,31,13,2
+2021,6,Disease / sickness,Disease,51,3,8
+2021,6,Dog attack,Dog attack,5,2,1
+2021,6,Fall,Other causes,1,0,1
+2021,6,Orphaned,Other causes,4,0,1
+2021,6,Other / not recorded,Not recorded,7,0,7
+2021,6,Other injury,Other causes,1,0,1
+2021,6,Under threat,Other causes,19,0,18
+2021,7,Car strike,Car strike,25,10,9
+2021,7,Disease / sickness,Disease,89,2,21
+2021,7,Dog attack,Dog attack,4,0,1
+2021,7,Fall,Other causes,2,1,1
+2021,7,Orphaned,Other causes,3,0,1
+2021,7,Other / not recorded,Not recorded,11,1,8
+2021,7,Other injury,Other causes,2,0,0
+2021,7,Under threat,Other causes,22,0,22
+2021,8,Car strike,Car strike,40,12,11
+2021,8,Disease / sickness,Disease,91,4,39
+2021,8,Dog attack,Dog attack,18,1,6
+2021,8,Fall,Other causes,5,1,1
+2021,8,Orphaned,Other causes,1,0,1
+2021,8,Other / not recorded,Not recorded,25,4,20
+2021,8,Other injury,Other causes,7,0,3
+2021,8,Under threat,Other causes,50,0,49
+2021,9,Car strike,Car strike,58,23,15
+2021,9,Disease / sickness,Disease,89,2,28
+2021,9,Dog attack,Dog attack,11,0,5
+2021,9,Fall,Other causes,3,1,1
+2021,9,Other / not recorded,Not recorded,26,2,24
+2021,9,Other injury,Other causes,6,0,6
+2021,9,Under threat,Other causes,38,0,38
+2021,10,Car strike,Car strike,35,13,7
+2021,10,Disease / sickness,Disease,87,0,18
+2021,10,Dog attack,Dog attack,11,2,3
+2021,10,Fall,Other causes,2,0,1
+2021,10,Orphaned,Other causes,4,0,1
+2021,10,Other / not recorded,Not recorded,24,2,20
+2021,10,Other injury,Other causes,4,0,4
+2021,10,Under threat,Other causes,21,0,20
+2021,11,Car strike,Car strike,34,7,9
+2021,11,Disease / sickness,Disease,73,0,16
+2021,11,Dog attack,Dog attack,3,1,0
+2021,11,Fall,Other causes,2,0,0
+2021,11,Orphaned,Other causes,2,0,2
+2021,11,Other / not recorded,Not recorded,23,2,21
+2021,11,Other injury,Other causes,3,0,2
+2021,11,Under threat,Other causes,8,0,7
+2021,12,Car strike,Car strike,15,1,6
+2021,12,Disease / sickness,Disease,64,1,9
+2021,12,Dog attack,Dog attack,4,2,0
+2021,12,Fall,Other causes,2,1,0
+2021,12,Orphaned,Other causes,3,0,2
+2021,12,Other / not recorded,Not recorded,7,0,6
+2021,12,Other injury,Other causes,1,0,0
+2021,12,Under threat,Other causes,9,0,9
+2022,1,Car strike,Car strike,15,4,3
+2022,1,Disease / sickness,Disease,53,0,12
+2022,1,Dog attack,Dog attack,2,0,0
+2022,1,Fall,Other causes,1,1,0
+2022,1,Orphaned,Other causes,5,0,4
+2022,1,Other / not recorded,Not recorded,13,1,11
+2022,1,Other injury,Other causes,1,0,0
+2022,1,Under threat,Other causes,1,0,1
+2022,2,Car strike,Car strike,9,3,2
+2022,2,Disease / sickness,Disease,65,2,12
+2022,2,Dog attack,Dog attack,6,0,1
+2022,2,Orphaned,Other causes,2,0,1
+2022,2,Other / not recorded,Not recorded,19,1,17
+2022,2,Under threat,Other causes,5,0,5
+2022,3,Car strike,Car strike,5,2,1
+2022,3,Disease / sickness,Disease,65,1,15
+2022,3,Dog attack,Dog attack,5,1,0
+2022,3,Fall,Other causes,2,1,0
+2022,3,Orphaned,Other causes,3,0,2
+2022,3,Other / not recorded,Not recorded,24,1,21
+2022,3,Other injury,Other causes,2,0,2
+2022,3,Under threat,Other causes,2,0,2
+2022,4,Car strike,Car strike,9,3,0
+2022,4,Disease / sickness,Disease,46,2,9
+2022,4,Orphaned,Other causes,1,0,0
+2022,4,Other / not recorded,Not recorded,11,2,9
+2022,4,Other injury,Other causes,2,0,1
+2022,4,Under threat,Other causes,2,0,2
+2022,5,Car strike,Car strike,9,3,1
+2022,5,Disease / sickness,Disease,55,2,7
+2022,5,Fall,Other causes,1,1,0
+2022,5,Orphaned,Other causes,1,0,0
+2022,5,Other / not recorded,Not recorded,19,2,12
+2022,5,Other injury,Other causes,3,0,1
+2022,6,Car strike,Car strike,18,7,7
+2022,6,Disease / sickness,Disease,52,2,8
+2022,6,Dog attack,Dog attack,8,3,3
+2022,6,Orphaned,Other causes,4,0,1
+2022,6,Other / not recorded,Not recorded,23,2,18
+2022,6,Other injury,Other causes,3,0,2
+2022,6,Under threat,Other causes,5,0,5
+2022,7,Car strike,Car strike,23,5,6
+2022,7,Disease / sickness,Disease,63,1,15
+2022,7,Dog attack,Dog attack,9,0,2
+2022,7,Fall,Other causes,2,2,0
+2022,7,Orphaned,Other causes,2,0,0
+2022,7,Other / not recorded,Not recorded,14,1,10
+2022,7,Other injury,Other causes,1,0,1
+2022,7,Under threat,Other causes,6,0,5
+2022,8,Car strike,Car strike,43,9,14
+2022,8,Disease / sickness,Disease,59,0,19
+2022,8,Dog attack,Dog attack,16,3,5
+2022,8,Fall,Other causes,6,0,3
+2022,8,Orphaned,Other causes,1,0,0
+2022,8,Other / not recorded,Not recorded,35,0,33
+2022,8,Other injury,Other causes,5,0,4
+2022,8,Under threat,Other causes,12,0,12
+2022,9,Car strike,Car strike,54,14,18
+2022,9,Disease / sickness,Disease,76,1,28
+2022,9,Dog attack,Dog attack,9,1,6
+2022,9,Fall,Other causes,4,0,3
+2022,9,Orphaned,Other causes,3,0,1
+2022,9,Other / not recorded,Not recorded,35,0,33
+2022,9,Other injury,Other causes,7,0,3
+2022,9,Under threat,Other causes,27,0,27
+2022,10,Car strike,Car strike,33,13,10
+2022,10,Disease / sickness,Disease,69,2,23
+2022,10,Dog attack,Dog attack,12,1,5
+2022,10,Fall,Other causes,4,0,3
+2022,10,Orphaned,Other causes,5,0,5
+2022,10,Other / not recorded,Not recorded,17,1,16
+2022,10,Other injury,Other causes,4,0,1
+2022,10,Under threat,Other causes,17,0,17
+2022,11,Car strike,Car strike,23,5,5
+2022,11,Disease / sickness,Disease,66,0,12
+2022,11,Dog attack,Dog attack,3,0,2
+2022,11,Fall,Other causes,1,0,0
+2022,11,Orphaned,Other causes,1,0,0
+2022,11,Other / not recorded,Not recorded,24,1,22
+2022,11,Other injury,Other causes,3,0,0
+2022,11,Under threat,Other causes,13,0,13
+2022,12,Car strike,Car strike,16,6,3
+2022,12,Disease / sickness,Disease,50,0,9
+2022,12,Dog attack,Dog attack,4,1,1
+2022,12,Fall,Other causes,3,0,2
+2022,12,Orphaned,Other causes,4,1,3
+2022,12,Other / not recorded,Not recorded,16,1,15
+2022,12,Under threat,Other causes,10,0,10
+2023,1,Car strike,Car strike,14,8,2
+2023,1,Disease / sickness,Disease,80,2,12
+2023,1,Dog attack,Dog attack,6,2,1
+2023,1,Fall,Other causes,2,0,1
+2023,1,Orphaned,Other causes,4,0,3
+2023,1,Other / not recorded,Not recorded,21,1,17
+2023,1,Other injury,Other causes,2,0,2
+2023,1,Under threat,Other causes,2,0,2
+2023,2,Car strike,Car strike,14,4,6
+2023,2,Disease / sickness,Disease,79,0,21
+2023,2,Dog attack,Dog attack,3,0,0
+2023,2,Orphaned,Other causes,1,0,1
+2023,2,Other / not recorded,Not recorded,7,0,6
+2023,2,Other injury,Other causes,4,0,0
+2023,2,Under threat,Other causes,2,0,2
+2023,3,Car strike,Car strike,8,4,0
+2023,3,Disease / sickness,Disease,68,2,10
+2023,3,Dog attack,Dog attack,4,1,1
+2023,3,Fall,Other causes,1,0,1
+2023,3,Orphaned,Other causes,1,0,1
+2023,3,Other / not recorded,Not recorded,9,1,7
+2023,3,Other injury,Other causes,2,0,1
+2023,3,Under threat,Other causes,1,0,1
+2023,4,Car strike,Car strike,15,4,0
+2023,4,Disease / sickness,Disease,68,3,14
+2023,4,Dog attack,Dog attack,5,0,1
+2023,4,Fall,Other causes,2,0,1
+2023,4,Orphaned,Other causes,2,0,1
+2023,4,Other / not recorded,Not recorded,6,0,6
+2023,4,Under threat,Other causes,4,0,3
+2023,5,Car strike,Car strike,14,3,4
+2023,5,Disease / sickness,Disease,67,1,14
+2023,5,Dog attack,Dog attack,4,0,1
+2023,5,Fall,Other causes,2,1,1
+2023,5,Orphaned,Other causes,1,0,0
+2023,5,Other / not recorded,Not recorded,12,2,9
+2023,5,Other injury,Other causes,1,0,1
+2023,5,Under threat,Other causes,9,0,9
+2023,6,Car strike,Car strike,30,11,5
+2023,6,Disease / sickness,Disease,79,0,16
+2023,6,Dog attack,Dog attack,6,0,2
+2023,6,Fall,Other causes,1,0,0
+2023,6,Other / not recorded,Not recorded,22,1,20
+2023,6,Other injury,Other causes,4,0,3
+2023,6,Under threat,Other causes,24,0,24
+2023,7,Car strike,Car strike,39,9,14
+2023,7,Disease / sickness,Disease,77,4,21
+2023,7,Dog attack,Dog attack,5,0,2
+2023,7,Fall,Other causes,1,0,1
+2023,7,Orphaned,Other causes,2,0,0
+2023,7,Other / not recorded,Not recorded,10,0,8
+2023,7,Other injury,Other causes,4,0,3
+2023,7,Under threat,Other causes,13,0,12
+2023,8,Car strike,Car strike,53,19,15
+2023,8,Disease / sickness,Disease,105,3,37
+2023,8,Dog attack,Dog attack,7,0,2
+2023,8,Orphaned,Other causes,3,0,1
+2023,8,Other / not recorded,Not recorded,24,2,18
+2023,8,Other injury,Other causes,3,0,2
+2023,8,Under threat,Other causes,30,0,29
+2023,9,Car strike,Car strike,54,22,15
+2023,9,Disease / sickness,Disease,90,1,23
+2023,9,Dog attack,Dog attack,14,1,6
+2023,9,Fall,Other causes,4,0,3
+2023,9,Orphaned,Other causes,4,0,4
+2023,9,Other / not recorded,Not recorded,25,3,20
+2023,9,Other injury,Other causes,9,0,8
+2023,9,Under threat,Other causes,30,0,28
+2023,10,Car strike,Car strike,56,18,14
+2023,10,Disease / sickness,Disease,140,3,37
+2023,10,Dog attack,Dog attack,11,1,5
+2023,10,Fall,Other causes,4,0,2
+2023,10,Orphaned,Other causes,9,0,4
+2023,10,Other / not recorded,Not recorded,27,4,20
+2023,10,Other injury,Other causes,4,0,1
+2023,10,Under threat,Other causes,19,0,17
+2023,11,Car strike,Car strike,34,8,9
+2023,11,Disease / sickness,Disease,104,3,31
+2023,11,Dog attack,Dog attack,5,0,3
+2023,11,Fall,Other causes,2,0,2
+2023,11,Orphaned,Other causes,7,0,3
+2023,11,Other / not recorded,Not recorded,18,2,16
+2023,11,Other injury,Other causes,3,0,3
+2023,11,Under threat,Other causes,8,0,8
+2023,12,Car strike,Car strike,22,5,4
+2023,12,Disease / sickness,Disease,60,1,18
+2023,12,Dog attack,Dog attack,3,1,1
+2023,12,Fall,Other causes,6,1,1
+2023,12,Orphaned,Other causes,2,0,1
+2023,12,Other / not recorded,Not recorded,9,0,7
+2023,12,Other injury,Other causes,2,0,0
+2023,12,Under threat,Other causes,10,0,10
+2024,1,Car strike,Car strike,10,2,2
+2024,1,Disease / sickness,Disease,67,1,18
+2024,1,Dog attack,Dog attack,1,1,0
+2024,1,Fall,Other causes,1,1,0
+2024,1,Orphaned,Other causes,1,0,1
+2024,1,Other / not recorded,Not recorded,9,0,9
+2024,1,Under threat,Other causes,2,0,2
+2024,2,Car strike,Car strike,6,1,1
+2024,2,Disease / sickness,Disease,53,1,15
+2024,2,Orphaned,Other causes,2,0,1
+2024,2,Other / not recorded,Not recorded,3,0,3
+2024,2,Other injury,Other causes,1,0,0
+2024,2,Under threat,Other causes,5,0,5
+2024,3,Car strike,Car strike,7,4,0
+2024,3,Disease / sickness,Disease,55,2,12
+2024,3,Dog attack,Dog attack,2,0,1
+2024,3,Fall,Other causes,1,0,1
+2024,3,Orphaned,Other causes,1,0,1
+2024,3,Other / not recorded,Not recorded,3,0,3
+2024,3,Other injury,Other causes,1,0,0
+2024,3,Under threat,Other causes,1,0,1
+2024,4,Car strike,Car strike,11,2,1
+2024,4,Disease / sickness,Disease,48,1,14
+2024,4,Fall,Other causes,1,0,1
+2024,4,Orphaned,Other causes,2,0,2
+2024,4,Other / not recorded,Not recorded,11,0,10
+2024,4,Other injury,Other causes,1,0,0
+2024,4,Under threat,Other causes,2,0,2
+2024,5,Car strike,Car strike,17,3,7
+2024,5,Disease / sickness,Disease,35,2,6
+2024,5,Dog attack,Dog attack,4,0,1
+2024,5,Fall,Other causes,1,0,0
+2024,5,Other / not recorded,Not recorded,12,0,10
+2024,5,Other injury,Other causes,2,0,2
+2024,5,Under threat,Other causes,4,0,2
+2024,6,Car strike,Car strike,22,5,8
+2024,6,Disease / sickness,Disease,51,2,13
+2024,6,Dog attack,Dog attack,1,0,1
+2024,6,Fall,Other causes,6,4,1
+2024,6,Orphaned,Other causes,2,0,1
+2024,6,Other / not recorded,Not recorded,5,1,4
+2024,6,Other injury,Other causes,4,0,3
+2024,6,Under threat,Other causes,16,0,16
+2024,7,Car strike,Car strike,32,12,9
+2024,7,Disease / sickness,Disease,54,0,16
+2024,7,Dog attack,Dog attack,8,1,3
+2024,7,Other / not recorded,Not recorded,9,3,5
+2024,7,Other injury,Other causes,6,0,5
+2024,7,Under threat,Other causes,20,0,20
+2024,8,Car strike,Car strike,24,5,8
+2024,8,Disease / sickness,Disease,75,2,18
+2024,8,Dog attack,Dog attack,12,1,8
+2024,8,Fall,Other causes,1,0,0
+2024,8,Orphaned,Other causes,4,0,2
+2024,8,Other / not recorded,Not recorded,10,0,10
+2024,8,Other injury,Other causes,2,0,2
+2024,8,Under threat,Other causes,39,0,39
+2024,9,Car strike,Car strike,41,7,9
+2024,9,Disease / sickness,Disease,84,3,34
+2024,9,Dog attack,Dog attack,14,1,6
+2024,9,Fall,Other causes,7,1,4
+2024,9,Other / not recorded,Not recorded,9,0,9
+2024,9,Other injury,Other causes,8,0,3
+2024,9,Under threat,Other causes,39,0,38
+2024,10,Car strike,Car strike,36,9,13
+2024,10,Disease / sickness,Disease,81,0,25
+2024,10,Dog attack,Dog attack,10,1,4
+2024,10,Fall,Other causes,4,0,1
+2024,10,Orphaned,Other causes,6,0,4
+2024,10,Other / not recorded,Not recorded,16,1,13
+2024,10,Other injury,Other causes,4,0,2
+2024,10,Under threat,Other causes,23,0,23
+2024,11,Car strike,Car strike,22,5,10
+2024,11,Disease / sickness,Disease,65,2,23
+2024,11,Dog attack,Dog attack,6,0,1
+2024,11,Fall,Other causes,1,0,1
+2024,11,Orphaned,Other causes,2,0,2
+2024,11,Other / not recorded,Not recorded,6,0,5
+2024,11,Other injury,Other causes,3,0,2
+2024,11,Under threat,Other causes,13,0,13
+2024,12,Car strike,Car strike,11,3,4
+2024,12,Disease / sickness,Disease,68,1,22
+2024,12,Dog attack,Dog attack,5,2,3
+2024,12,Fall,Other causes,3,0,1
+2024,12,Orphaned,Other causes,3,0,0
+2024,12,Other / not recorded,Not recorded,5,1,4
+2024,12,Other injury,Other causes,4,0,1
+2024,12,Under threat,Other causes,5,0,4
+2025,1,Car strike,Car strike,9,2,3
+2025,1,Disease / sickness,Disease,76,1,18
+2025,1,Dog attack,Dog attack,3,0,0
+2025,1,Orphaned,Other causes,3,0,2
+2025,1,Other / not recorded,Not recorded,3,2,1
+2025,1,Other injury,Other causes,4,0,3
+2025,1,Under threat,Other causes,4,0,4
+2025,2,Car strike,Car strike,13,0,4
+2025,2,Disease / sickness,Disease,43,0,14
+2025,2,Dog attack,Dog attack,5,0,1
+2025,2,Orphaned,Other causes,1,0,0
+2025,2,Other / not recorded,Not recorded,3,0,1
+2025,2,Other injury,Other causes,3,0,3
+2025,2,Under threat,Other causes,6,0,6
+2025,3,Car strike,Car strike,10,4,1
+2025,3,Disease / sickness,Disease,49,2,10
+2025,3,Dog attack,Dog attack,3,0,0
+2025,3,Fall,Other causes,3,0,2
+2025,3,Orphaned,Other causes,2,0,2
+2025,3,Other / not recorded,Not recorded,3,2,1
+2025,3,Other injury,Other causes,2,0,2
+2025,3,Under threat,Other causes,2,0,2
+2025,4,Car strike,Car strike,6,2,2
+2025,4,Disease / sickness,Disease,42,2,11
+2025,4,Dog attack,Dog attack,4,0,2
+2025,4,Fall,Other causes,1,1,0
+2025,4,Orphaned,Other causes,2,0,0
+2025,4,Other / not recorded,Not recorded,1,0,1
+2025,4,Other injury,Other causes,1,0,1
+2025,4,Under threat,Other causes,1,0,1
+2025,5,Car strike,Car strike,15,5,3
+2025,5,Disease / sickness,Disease,48,0,17
+2025,5,Dog attack,Dog attack,5,0,2
+2025,5,Fall,Other causes,1,0,0
+2025,5,Orphaned,Other causes,3,0,1
+2025,5,Other / not recorded,Not recorded,5,2,3
+2025,5,Other injury,Other causes,1,0,1
+2025,5,Under threat,Other causes,1,0,1
+2025,6,Car strike,Car strike,10,3,3
+2025,6,Disease / sickness,Disease,65,4,20
+2025,6,Dog attack,Dog attack,7,3,1
+2025,6,Orphaned,Other causes,2,0,1
+2025,6,Other / not recorded,Not recorded,5,2,3
+2025,6,Under threat,Other causes,5,0,5

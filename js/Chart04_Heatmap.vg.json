@@ -1,0 +1,116 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 756,
+    "height": 140,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/ALA_SightingsByStateYearMonth.csv",
+        "format": {"type": "csv", "parse": {"year": "number", "count": "number"}
+        }
+    },
+    "transform": [
+        {
+            "filter": "isValid(datum.year) && datum.year >= 2000 && datum.year <= 2026"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "count", "as": "records"
+                }
+            ],
+            "groupby": ["state", "year"]
+        },
+        {
+            "impute": "records",
+            "key": "year",
+            "keyvals": {"start": 2000, "stop": 2027},
+            "groupby": ["state"],
+            "value": 0
+        },
+        {
+            "calculate": "{'NSW': 'New South Wales', 'QLD': 'Queensland', 'VIC': 'Victoria', 'SA': 'South Australia', 'ACT': 'ACT'}[datum.state]",
+            "as": "state_name"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "rect",
+                "strokeWidth": 1.5
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "title": null,
+                    "axis": {"labelAngle": 0, "labelExpr": "datum.value % 2 == 0 ? datum.value : ''"}
+                },
+                "y": {
+                    "field": "state_name",
+                    "type": "nominal",
+                    "title": null,
+                    "sort": ["New South Wales", "Queensland", "Victoria", "South Australia", "ACT"]
+                },
+                "color": {
+                    "condition": {"test": "datum.records == 0", "value": "#FFFFFF"},
+                    "field": "records",
+                    "type": "quantitative",
+                    "title": "Sightings per year",
+                    "scale": {
+                        "type": "log",
+                        "domain": [1, 100000],
+                        "range": ["#E3F0E4", "#A9D1AE", "#74B27F", "#3F8C57", "#1F5C3F", "#0F3B26"]
+                    },
+                    "legend": {
+                        "orient": "right",
+                        "direction": "horizontal",
+                        "gradientLength": 120,
+                        "gradientThickness": 12,
+                        "values": [1, 100000],
+                        "labelExpr": "datum.value == 1 ? 'fewer' : 'more'"
+                    }
+                },
+                "stroke": {
+                    "condition": {"test": "datum.records == 0", "value": "#C7D2C9"},
+                    "value": "#FFFFFF"
+                },
+                "tooltip": [
+                    {
+                        "field": "state_name",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "records",
+                        "type": "quantitative",
+                        "title": "Sightings",
+                        "format": ","
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "axis": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "domain": false,
+            "ticks": false
+        },
+        "legend": {
+            "titleFontSize": 12,
+            "titleColor": "#17261E",
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55"
+        }
+    }
+}

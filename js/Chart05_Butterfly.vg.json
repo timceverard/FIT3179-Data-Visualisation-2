@@ -1,0 +1,245 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 520,
+    "height": 220,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/ALA_SightingsByStateYearMonth.csv",
+        "format": {"type": "csv", "parse": {"year": "number", "count": "number", "area_km2": "number"}
+        }
+    },
+    "transform": [
+        {
+            "filter": "isValid(datum.year) && datum.year >= 2000 && datum.year <= 2024"
+        },
+        {
+            "calculate": "floor((datum.year - 2000) / 5) * 5 + 2000",
+            "as": "period_start"
+        },
+        {
+            "calculate": "datum.period_start + '–' + (datum.period_start + 4)",
+            "as": "period"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "count", "as": "records"
+                },
+                {
+                    "op": "max", "field": "area_km2", "as": "area_km2"
+                }
+            ],
+            "groupby": ["region", "state", "period"]
+        },
+        {
+            "impute": "records",
+            "key": "period",
+            "keyvals": ["2000–2004", "2005–2009", "2010–2014", "2015–2019", "2020–2024"],
+            "groupby": ["region", "state"],
+            "value": 0
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "max", "field": "area_km2", "as": "state_area"
+                }
+            ],
+            "groupby": ["state"]
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "records", "as": "records"
+                },
+                {
+                    "op": "sum", "field": "state_area", "as": "region_area"
+                }
+            ],
+            "groupby": ["region", "period"]
+        },
+        {
+            "calculate": "datum.records / datum.region_area * 1000 / 5",
+            "as": "per_1000_km2"
+        },
+        {
+            "calculate": "indexof(datum.region, 'Listed') == 0 ? 'listed' : 'unlisted'",
+            "as": "side"
+        },
+        {
+            "calculate": "datum.side == 'listed' ? -datum.per_1000_km2 : datum.per_1000_km2",
+            "as": "signed_value"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "bar",
+                "height": {"band": 0.6}
+            },
+            "encoding": {
+                "y": {
+                    "field": "period",
+                    "type": "ordinal",
+                    "title": null
+                },
+                "x": {
+                    "field": "signed_value",
+                    "type": "quantitative",
+                    "title": "Sightings per 1,000 km² per year",
+                    "scale": {"domain": [-20, 20]},
+                    "axis": {"labelExpr": "abs(datum.value)", "grid": true, "values": [-20, -15, -10, -5, 0, 5, 10, 15, 20]}
+                },
+                "color": {
+                    "field": "side",
+                    "type": "nominal",
+                    "scale": {"domain": ["listed", "unlisted"], "range": ["#1F5C3F", "#9CC5A6"]},
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "region",
+                        "type": "nominal",
+                        "title": "Region"
+                    },
+                    {
+                        "field": "period",
+                        "type": "ordinal",
+                        "title": "Period"
+                    },
+                    {
+                        "field": "per_1000_km2",
+                        "type": "quantitative",
+                        "title": "Sightings per 1,000 km² per year",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "records",
+                        "type": "quantitative",
+                        "title": "Total sightings",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.side == 'listed'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "color": "#17261E",
+                "align": "right",
+                "dx": -4
+            },
+            "encoding": {
+                "y": {
+                    "field": "period",
+                    "type": "ordinal"
+                },
+                "x": {
+                    "field": "signed_value",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "per_1000_km2",
+                    "type": "quantitative",
+                    "format": ".1f"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.side == 'unlisted'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "color": "#17261E",
+                "align": "left",
+                "dx": 4
+            },
+            "encoding": {
+                "y": {
+                    "field": "period",
+                    "type": "ordinal"
+                },
+                "x": {
+                    "field": "signed_value",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "per_1000_km2",
+                    "type": "quantitative",
+                    "format": ".1f"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {"x": -10, "label": "Listed (QLD, NSW, ACT)", "side": "listed"},
+                    {"x": 10, "label": "Unlisted (VIC, SA)", "side": "unlisted"}
+                ]
+            },
+            "mark": {
+                "type": "text",
+                "fontSize": 12,
+                "fontWeight": 600,
+                "dy": -14
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "value": 0
+                },
+                "text": {
+                    "field": "label"
+                },
+                "color": {
+                    "condition": {"test": "datum.side == 'listed'", "value": "#1F5C3F"},
+                    "value": "#5E9C6E"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [{"x": 0}]
+            },
+            "mark": {
+                "type": "rule",
+                "color": "#17261E",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "axis": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "titleFontSize": 12,
+            "titleFontWeight": "normal",
+            "titleColor": "#4F5E55",
+            "gridColor": "#E3E9E4",
+            "domain": false,
+            "ticks": false
+        }
+    }
+}

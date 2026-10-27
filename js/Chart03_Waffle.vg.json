@@ -1,0 +1,157 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 300,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/ALA_RecordingPrograms.csv",
+        "format": {"type": "csv", "parse": {"records": "number"}
+        }
+    },
+    "transform": [
+        {
+            "window": [
+                {
+                    "op": "row_number", "as": "rank"
+                }
+            ],
+            "sort": [{"field": "records", "order": "descending"}]
+        },
+        {
+            "calculate": "datum.rank <= 5 ? datum.short_name : 'All other programs'",
+            "as": "group"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "records", "as": "records"
+                },
+                {
+                    "op": "count", "as": "programs"
+                }
+            ],
+            "groupby": ["group"]
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "sum", "field": "records", "as": "total"
+                }
+            ]
+        },
+        {
+            "calculate": "datum.records / datum.total",
+            "as": "share"
+        },
+        {
+            "calculate": "round(datum.share * 100)",
+            "as": "squares"
+        },
+        {
+            "calculate": "datum.group == 'All other programs' ? 'All other programs (' + datum.programs + ')' : datum.group",
+            "as": "group_name"
+        },
+        {
+            "calculate": "datum.group_name + '|' + format(datum.share, '.1%') + ' · ' + format(datum.records, ',') + ' records'",
+            "as": "legend_label"
+        },
+        {
+            "calculate": "datum.group == 'All other programs' ? -1 : datum.records",
+            "as": "sort_key"
+        },
+        {
+            "window": [
+                {
+                    "op": "row_number", "as": "order"
+                },
+                {
+                    "op": "sum", "field": "squares", "as": "end_square"
+                }
+            ],
+            "sort": [{"field": "sort_key", "order": "descending"}]
+        },
+        {
+            "calculate": "sequence(datum.end_square - datum.squares, datum.end_square)",
+            "as": "cells"
+        },
+        {
+            "flatten": ["cells"],
+            "as": ["cell"]
+        },
+        {
+            "calculate": "datum.cell % 10",
+            "as": "col"
+        },
+        {
+            "calculate": "floor(datum.cell / 10)",
+            "as": "row"
+        }
+    ],
+    "mark": {
+        "type": "rect",
+        "stroke": "#FFFFFF",
+        "strokeWidth": 2
+    },
+    "encoding": {
+        "x": {
+            "field": "col",
+            "type": "ordinal",
+            "axis": null
+        },
+        "y": {
+            "field": "row",
+            "type": "ordinal",
+            "axis": null
+        },
+        "color": {
+            "field": "legend_label",
+            "type": "nominal",
+            "sort": {"field": "order"},
+            "title": null,
+            "scale": {
+                "range": ["#0F3B26", "#3F8C57", "#74B27F", "#A9D1AE", "#D2E8D5", "#C5CAC6"]
+            },
+            "legend": {
+                "orient": "bottom",
+                "direction": "vertical",
+                "columns": 2,
+                "columnPadding": 24,
+                "labelExpr": "split(datum.label, '|')",
+                "labelLimit": 200,
+                "rowPadding": 8
+            }
+        },
+        "tooltip": [
+            {
+                "field": "group_name",
+                "type": "nominal",
+                "title": "Program"
+            },
+            {
+                "field": "records",
+                "type": "quantitative",
+                "title": "Sightings",
+                "format": ","
+            },
+            {
+                "field": "share",
+                "type": "quantitative",
+                "title": "Share of all sightings",
+                "format": ".1%"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "legend": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "symbolType": "square",
+            "symbolSize": 140,
+            "symbolStrokeWidth": 0
+        }
+    }
+}

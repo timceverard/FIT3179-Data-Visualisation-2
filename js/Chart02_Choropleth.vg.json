@@ -1,0 +1,201 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 470,
+    "height": 400,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "projection": {"type": "equalEarth", "rotate": [-134, 0, 0]},
+    "layer": [
+        {
+            "data": {
+                "url": "js/AusStateBoundaries.topojson",
+                "format": {"type": "topojson", "feature": "states"}
+            },
+            "mark": {"type": "geoshape", "stroke": "#FFFFFF", "strokeWidth": 0.8},
+            "encoding": {
+                "color": {
+                    "datum": "No wild koalas",
+                    "type": "ordinal"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "data/ALA_SightingsByStateYearMonth.csv",
+                "format": {"type": "csv", "parse": {"count": "number", "area_km2": "number"}
+                }
+            },
+            "transform": [
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum", "field": "count", "as": "records"
+                        },
+                        {
+                            "op": "max", "field": "area_km2", "as": "area_km2"
+                        }
+                    ],
+                    "groupby": ["state"]
+                },
+                {
+                    "impute": "records",
+                    "key": "state",
+                    "keyvals": ["ACT", "NSW", "NT", "QLD", "SA", "VIC", "WA"],
+                    "value": 0
+                },
+                {
+                    "calculate": "datum.records == 0 ? 0 : datum.records / datum.area_km2 * 1000",
+                    "as": "per_1000_km2"
+                },
+                {
+                    "calculate": "datum.records == 0 ? 'No wild koalas' : datum.per_1000_km2 < 20 ? 'Under 20' : datum.per_1000_km2 < 50 ? '20–49' : datum.per_1000_km2 < 80 ? '50–79' : datum.per_1000_km2 < 200 ? '80–199' : '200 or more'",
+                    "as": "density_class"
+                },
+                {
+                    "lookup": "state",
+                    "from": {
+                        "data": {
+                            "url": "js/AusStateBoundaries.topojson",
+                            "format": {"type": "topojson", "feature": "states"}
+                        },
+                        "key": "properties.state"
+                    },
+                    "as": "geo"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#FFFFFF",
+                "strokeWidth": 0.8
+            },
+            "encoding": {
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
+                },
+                "color": {
+                    "field": "density_class",
+                    "type": "ordinal",
+                    "title": "Records per 1,000 km²",
+                    "scale": {
+                        "domain": ["200 or more", "80–199", "50–79", "20–49", "Under 20", "No wild koalas"],
+                        "range": ["#1F5C3F", "#3F8C57", "#74B27F", "#A9D1AE", "#CFE5D2", "#EEF2EC"]
+                    },
+                    "legend": {
+                        "orient": "none",
+                        "legendX": 0,
+                        "legendY": 330,
+                        "titleLimit": 220
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "geo.properties.name",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "records",
+                        "type": "quantitative",
+                        "title": "Sightings",
+                        "format": ","
+                    },
+                    {
+                        "field": "per_1000_km2",
+                        "type": "quantitative",
+                        "title": "Sightings per 1,000 km²",
+                        "format": ".0f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/ALA_SightingsByStateYearMonth.csv",
+                "format": {"type": "csv", "parse": {"count": "number", "area_km2": "number"}
+                }
+            },
+            "transform": [
+                {
+                    "aggregate": [
+                        {
+                            "op": "sum", "field": "count", "as": "records"
+                        },
+                        {
+                            "op": "max", "field": "area_km2", "as": "area_km2"
+                        }
+                    ],
+                    "groupby": ["state"]
+                },
+                {
+                    "impute": "records",
+                    "key": "state",
+                    "keyvals": ["ACT", "NSW", "NT", "QLD", "SA", "VIC", "WA"],
+                    "value": 0
+                },
+                {
+                    "calculate": "datum.records == 0 ? 0 : datum.records / datum.area_km2 * 1000",
+                    "as": "per_1000_km2"
+                },
+                {
+                    "calculate": "datum.state + ' ' + format(datum.per_1000_km2, '.0f')",
+                    "as": "label"
+                },
+                {
+                    "lookup": "state",
+                    "from": {
+                        "data": {
+                            "values": [
+                                {"state": "QLD", "lat": -22.5, "lng": 144.5},
+                                {"state": "NSW", "lat": -32.3, "lng": 146.8},
+                                {"state": "VIC", "lat": -37.0, "lng": 144.2},
+                                {"state": "SA", "lat": -30.0, "lng": 135.5},
+                                {"state": "ACT", "lat": -35.5, "lng": 154.6},
+                                {"state": "WA", "lat": -26.0, "lng": 122.0},
+                                {"state": "NT", "lat": -19.5, "lng": 133.5}
+                            ]
+                        },
+                        "key": "state",
+                        "fields": ["lat", "lng"]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "fontWeight": 600
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lng",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "label"
+                },
+                "color": {
+                    "condition": {"test": "datum.per_1000_km2 >= 80 && datum.state != 'ACT'", "value": "#FFFFFF"},
+                    "value": "#17261E"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "legend": {
+            "titleFontSize": 12,
+            "titleColor": "#17261E",
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "symbolType": "square",
+            "symbolSize": 140,
+            "symbolStrokeWidth": 0
+        }
+    }
+}

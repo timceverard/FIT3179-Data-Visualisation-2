@@ -1,0 +1,202 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 760,
+    "height": 300,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/QldHospital_RescuesByYearMonthCause.csv",
+        "format": {"type": "csv", "parse": {"year": "number", "count": "number"}
+        }
+    },
+    "transform": [
+        {
+            "filter": "datum.year <= 2024"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "count", "as": "rescues"
+                }
+            ],
+            "groupby": ["year", "cause_group"]
+        },
+        {
+            "joinaggregate": [
+                {
+                    "op": "sum", "field": "rescues", "as": "year_total"
+                }
+            ],
+            "groupby": ["year"]
+        },
+        {
+            "calculate": "datum.rescues / datum.year_total",
+            "as": "share"
+        },
+        {
+            "calculate": "{'Not recorded': 0, 'Other causes': 1, 'Dog attack': 2, 'Disease': 3, 'Car strike': 4}[datum.cause_group]",
+            "as": "stack_order"
+        }
+    ],
+    "encoding": {
+        "color": {
+            "field": "cause_group",
+            "type": "nominal",
+            "scale": {
+                "domain": ["Car strike", "Disease", "Dog attack", "Other causes", "Not recorded"],
+                "range": ["#C8862B", "#1F5C3F", "#74B27F", "#A9D1AE", "#D5DDD6"]
+            },
+            "legend": null
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "area",
+                "stroke": "#FFFFFF",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "quantitative",
+                    "title": null,
+                    "scale": {"domain": [1997, 2024], "nice": false},
+                    "axis": {"format": "d", "values": [1997, 2000, 2003, 2006, 2009, 2012, 2015, 2018, 2021, 2024]}
+                },
+                "y": {
+                    "field": "rescues",
+                    "type": "quantitative",
+                    "stack": "normalize",
+                    "title": "Share of the year's rescues",
+                    "axis": {"format": ".0%", "grid": true, "tickCount": 5}
+                },
+                "order": {
+                    "field": "stack_order"
+                },
+                "tooltip": [
+                    {
+                        "field": "year",
+                        "type": "quantitative",
+                        "title": "Year",
+                        "format": "d"
+                    },
+                    {
+                        "field": "cause_group",
+                        "type": "nominal",
+                        "title": "Cause"
+                    },
+                    {
+                        "field": "share",
+                        "type": "quantitative",
+                        "title": "Share of the year's rescues",
+                        "format": ".0%"
+                    },
+                    {
+                        "field": "rescues",
+                        "type": "quantitative",
+                        "title": "Rescues",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "window": [
+                        {
+                            "op": "first_value", "field": "share", "as": "share_1997"
+                        }
+                    ],
+                    "sort": [{"field": "year", "order": "ascending"}],
+                    "groupby": ["cause_group"],
+                    "frame": [null, null]
+                },
+                {
+                    "filter": "datum.year == 2024"
+                },
+                {
+                    "stack": "rescues",
+                    "groupby": ["year"],
+                    "sort": [{"field": "stack_order", "order": "ascending"}],
+                    "offset": "normalize",
+                    "as": ["band_low", "band_high"]
+                },
+                {
+                    "calculate": "(datum.band_low + datum.band_high) / 2",
+                    "as": "band_mid"
+                },
+                {
+                    "calculate": "(datum.share - datum.share_1997) * 100",
+                    "as": "change_points"
+                },
+                {
+                    "calculate": "[datum.cause_group + ': ' + format(datum.share, '.0%') + ' in 2024', '(' + (datum.change_points >= 0 ? '+' : '') + format(datum.change_points, '.0f') + ' points since 1997)']",
+                    "as": "end_label"
+                }
+            ],
+            "layer": [
+                {
+                    "mark": {
+                        "type": "square",
+                        "size": 90,
+                        "opacity": 1,
+                        "xOffset": 14
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "year",
+                            "type": "quantitative"
+                        },
+                        "y": {
+                            "field": "band_mid",
+                            "type": "quantitative"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 24,
+                        "fontSize": 11,
+                        "lineHeight": 14
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "year",
+                            "type": "quantitative"
+                        },
+                        "y": {
+                            "field": "band_mid",
+                            "type": "quantitative"
+                        },
+                        "text": {
+                            "field": "end_label"
+                        },
+                        "color": {
+                            "value": "#17261E"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "axis": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "titleFontSize": 12,
+            "titleFontWeight": "normal",
+            "titleColor": "#4F5E55",
+            "gridColor": "#E3E9E4",
+            "domain": false,
+            "ticks": false,
+            "grid": false
+        }
+    }
+}

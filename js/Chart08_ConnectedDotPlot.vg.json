@@ -1,0 +1,250 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 300,
+    "height": 240,
+    "padding": {"left": 0, "top": 5, "right": 5, "bottom": 5},
+    "data": {
+        "url": "data/QldHospital_RescuesByYearMonthCause.csv",
+        "format": {"type": "csv", "parse": {"month": "number", "count": "number"}
+        }
+    },
+    "transform": [
+        {
+            "filter": "datum.cause_group != 'Not recorded'"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum", "field": "count", "as": "rescues"
+                }
+            ],
+            "groupby": ["cause_group", "month"]
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "min", "field": "rescues", "as": "low"
+                },
+                {
+                    "op": "max", "field": "rescues", "as": "high"
+                },
+                {
+                    "op": "argmin", "field": "rescues", "as": "low_row"
+                },
+                {
+                    "op": "argmax", "field": "rescues", "as": "high_row"
+                }
+            ],
+            "groupby": ["cause_group"]
+        },
+        {
+            "calculate": "monthAbbrevFormat(datum.low_row.month - 1)",
+            "as": "low_month"
+        },
+        {
+            "calculate": "monthAbbrevFormat(datum.high_row.month - 1)",
+            "as": "high_month"
+        },
+        {
+            "calculate": "datum.high / datum.low",
+            "as": "ratio"
+        }
+    ],
+    "encoding": {
+        "y": {
+            "field": "cause_group",
+            "type": "nominal",
+            "title": null,
+            "sort": ["Car strike", "Disease", "Dog attack", "Other causes"],
+            "axis": {"labelPadding": 8}
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "strokeWidth": 3
+            },
+            "encoding": {
+                "x": {
+                    "field": "low",
+                    "type": "quantitative",
+                    "title": "Rescues in that month (all years combined)",
+                    "scale": {"domain": [0, 2500]},
+                    "axis": {"grid": true, "tickCount": 5}
+                },
+                "x2": {
+                    "field": "high"
+                },
+                "color": {
+                    "condition": {"test": "datum.cause_group == 'Car strike'", "value": "#C8862B"},
+                    "value": "#3F8C57"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "fill": "#FFFFFF",
+                "size": 90,
+                "opacity": 1,
+                "strokeWidth": 2.5
+            },
+            "encoding": {
+                "x": {
+                    "field": "low",
+                    "type": "quantitative"
+                },
+                "stroke": {
+                    "condition": {"test": "datum.cause_group == 'Car strike'", "value": "#C8862B"},
+                    "value": "#1F5C3F"
+                },
+                "tooltip": [
+                    {
+                        "field": "cause_group",
+                        "type": "nominal",
+                        "title": "Cause"
+                    },
+                    {
+                        "field": "low_month",
+                        "type": "nominal",
+                        "title": "Quietest month"
+                    },
+                    {
+                        "field": "low",
+                        "type": "quantitative",
+                        "title": "Rescues",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "size": 90,
+                "opacity": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "high",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "condition": {"test": "datum.cause_group == 'Car strike'", "value": "#C8862B"},
+                    "value": "#1F5C3F"
+                },
+                "tooltip": [
+                    {
+                        "field": "cause_group",
+                        "type": "nominal",
+                        "title": "Cause"
+                    },
+                    {
+                        "field": "high_month",
+                        "type": "nominal",
+                        "title": "Busiest month"
+                    },
+                    {
+                        "field": "high",
+                        "type": "quantitative",
+                        "title": "Rescues",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "calculate": "[datum.low_month, format(datum.low, ',')]",
+                    "as": "low_label"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "baseline": "bottom",
+                "dy": -22,
+                "fontSize": 10,
+                "color": "#4F5E55"
+            },
+            "encoding": {
+                "x": {
+                    "field": "low",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "low_label"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "calculate": "[datum.high_month, format(datum.high, ',')]",
+                    "as": "high_label"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "baseline": "bottom",
+                "dy": -22,
+                "fontSize": 10,
+                "color": "#17261E"
+            },
+            "encoding": {
+                "x": {
+                    "field": "high",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "high_label"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "calculate": "'× ' + format(datum.ratio, '.1f')",
+                    "as": "ratio_label"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "fontSize": 12,
+                "fontWeight": 600
+            },
+            "encoding": {
+                "x": {
+                    "value": 312
+                },
+                "text": {
+                    "field": "ratio_label"
+                },
+                "color": {
+                    "condition": {"test": "datum.cause_group == 'Car strike'", "value": "#C8862B"},
+                    "value": "#17261E"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "font": "Public Sans, sans-serif",
+        "axis": {
+            "labelFontSize": 11,
+            "labelColor": "#4F5E55",
+            "titleFontSize": 12,
+            "titleFontWeight": "normal",
+            "titleColor": "#4F5E55",
+            "gridColor": "#E3E9E4",
+            "domain": false,
+            "ticks": false
+        }
+    }
+}
